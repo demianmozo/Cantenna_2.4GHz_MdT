@@ -1,0 +1,40 @@
+{
+    "parameters": [
+        {
+            "expr": "2462e6",
+            "name": "f",
+            "value": "2462e6"
+        },
+        {
+            "expr": "3e8*1000/f",
+            "name": "lmbda",
+            "value": "121.852152721365"
+        },
+        {
+            "expr": "0.5",
+            "name": "radio",
+            "value": "0.5"
+        },
+        {
+            "expr": "lmbda/4",
+            "name": "L",
+            "value": "30.4630381803413"
+        },
+        {
+            "expr": "88.9",
+            "name": "D",
+            "value": "88.9"
+        },
+        {
+            "expr": "150",
+            "name": "Lopt",
+            "value": "150"
+        },
+        {
+            "expr": "52.7",
+            "name": "y",
+            "value": "52.7"
+        }
+    ],
+    "version": 1
+}

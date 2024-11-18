@@ -1,0 +1,984 @@
+{
+    "general": {
+        "version": "2024.4",
+        "date": "2024-04-30",
+        "acis": "33.0.1",
+        "buildnumber": "20240430",
+        "project_type": "MWS",
+        "length": "mm",
+        "frequency": {
+            "unit": "MHz",
+            "minimum": "2000",
+            "maximum": "3000",
+            "minimum_expr": "2000",
+            "maximum_expr": "3000"
+        },
+        "time": "ns",
+        "created": "2024.4|33.0.1|20240430"
+    },
+    "history": [
+        {
+            "caption": "define units",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"044f036e9e509166aa63a6b0a2f9642e7671c2a0838afcf2380d53927bd8384671e76a5f2bd3259ae131fd871471efef32f00b0bdcb0d488b663a0f191eaae96c3355464680ab2df8bbd43f9849d60668321ab12df35550b6b6c7649a05cc14d00848d9281e2796ef8a62cd345a4c1e1fbbb484e8f3e4b205dc871dca62aba42e6ff5a56333e403f762039beedf7bf486cf103cf4629e4c13c76f894b4ec2c0b7461c215f762aab08d0121450c17847470be5652f4ceaccb9630e087ea174120adf59624ef721a9e4f3d1737fe9ef7321fccfb6aaf3278ffed2dd23b3bbee0fd8e6423a375b6eba448eb3525db42b6393e2925a22b00f7c1fe58d5b0934cd930d7e0a691dc284e06958feba78756cd51b52eced00ad190a3f47ce0a701765418f8fb08cb1dcdbbfc9ebb58b0145ec30b755060f994770f337a21acdd00a0130160c4d190b3e06d22e4990284daabab646acf03d0cb8f64642243a0e9821f2620e8bcb38693f8092ec0f65acefa0d5128dab8907d1955dd499ec0af24927e05f8bcc16e1e18db12c280ae7d7fad7c1b02f5\""
+            ]
+        },
+        {
+            "caption": "new component: component1",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"0473c9e8892bb9aca279e1971a66c14e34bd15bd96cad187682350501b711c803f\""
+            ]
+        },
+        {
+            "caption": "define cylinder: component1:monopolo",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"040fb292bdc750dcdc98d17420ec1d2638affabc7a7c77a95eef18efb7973db36f3deff13092502c2087f26b15953ab3d9040c14082b5fde39bc895c691c8228479e81560d32a745b2103e37ebfebea09aafe9ceab21816f5767e1e625096791c65db01de194d40a2f4a0326a32b8586c5dd3d96b8ec74a8992790230a5e1423c1bb86ae508cc5ee4f9cd5b3696a7b8df8b7b75c3cf055d8f468f8d7962296c5eb238b21a66ca33780926ec95366b5ec53187c057d9045c489c0cc7745ea47ca2628313bbbf29efd5d4a6833cccd571c45023e3457432ebadccc190094a6cada436471e8e16bcf49e6abd932acdcf4699a2ff75392fbe3f13af4f97feec0ad0454be7ab719552c927beaca63bb4b204e0510d004bf5aa7306acfe09d26519970269752f44a08bc17c817893182225d7a85\""
+            ]
+        },
+        {
+            "caption": "define material: Copper (pure)",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"040d702fca6b38427c8a9a9e2162a6f8e10eabc479dd6cb0071f36a6bac086a0d1b30d536261707c44284ae3a23c4ff0219a4e171c9cf2289fabdc849c3c54dc94e3e8b822f0e26f5447077282f05031770e8f2466f0b8b1d89b2f780fe2f9e37cd2c7a98db4e8dca056c934cf0b058df52b984a81286344917e18598d7cc1a6c78842910d5812aea4fb72bbe68e40667e9c41dcc8b8c9768c695306617f30cd5ef0819558699a7ba1f328e588fb74122dd11385fff71ded8b86ef023956636b7c2f74a4af1072d2c430cb4ca58b02237b9e606ba1fcf24dac307ea1dc9f147ef5f7520b6173478d42db94c50490a105c2c08373496ff5fac78d98a2965a92c91c6e30fba0fc4d8c4804714412d21f9cd2646df9f191832a20f369ae534176caad2ff851628a6c1a074c7c4a7bc6b8e103e46d46f0b5bad2bc3cf0f2a982022ff11ba1c8f0a4c942b4b81c291b161ce81370ee6d7de4018672918ef5d6ea1424000de0aea56166bb626c64531e4bd7c9640d0758ceb7e4a491244d61cdd0658028c8f53b0d0f86a651005e85e7f8e8f1ab6fd5dd41e3c4aa3b53aa859819c613125eff4bbe215dae045028d36c56cec31dc62dffc1731e565656c607498b693cb710807adb873d815fdf863a05fc55104a3070001ce1d9da1f4c90c0350e10818bd8ac6d482ed785ba06f3e34cda1191a7033f988df43b6fc1a9d7ad1efb626fcda4f4567ed7f29c60321baa0a7ee8bfc19f318482e2e6ca6f610b53a490b7eaa35ef522332c95b486d374888399748677a144ba431988b6cc225ce0453dcd22385659be35a8d0c344e53f3f461894400ed4e8d34dfdf561fd95e6aa173e037ce86cf010fab752406323dec37a356e2a69f9a0cfdd8254a5ce4d18caf637d38fa26863082989fb3d5baa691e852f9ae20674da012cb6ac62a3a8696652c34f58c8982934e03b30dd2681c1f8e5ef6dca0241916c332c0d319782cef343368bbd6b9d32d103ba24d764971749dc7f501de915ec1737c30524c0d2290192324723c8ed2f0ca4302bb9601c6592e2bdcf31a817e3943904597a26f7305dd36ec01e1647328675ad6c8a3df5f76aca8388dbf44d3e8de049b1e87427b5d19d441c0e68c48dae61d517672b4182c582cffc29401990746f4582d1d7d14c155d734058a55f1e2236b80f7af6c36201741825ba0d6273b35bf84a8bdc618bde4482df4f61aeca964e543437d6dc6424986f4be7b911dec8dbc0d0e0c8dd73534d18c0db0cfe174a3d0021885160f8438942cf90d7b37502c41daa3988d1849e98fd5416c25322052ddb44a4f0d8b08ccb31bd786ae4747cdd094e271da8145558b25b072807e867f0cf07fde45d2339900fc9fbf3ca716ac0caf621d5aecbc2c300ba9ee4bb47fc0f04843663802ff3d4807da0cb4c7b419d416c77a47dcac3ca0e5954a46d48b11f8d952a1a28fc31830707d8cf0b357111cf1b1fe5ece4a1e6013e245a9d59473930e6be2688ed4c5186bb5e0fcdcf3910a3d11e366f4fe9b27671ebb9a0f0f6d8120f4d3394bd27cbe4bcf1a031327d2a4141e4eca8d821043efbc1afc5bf85c0b32d99ecd288c35e34c5de71f9831b824699ec607dd8638d1c2e2744b0ac0aa543dd083ac2fa6cc420d29ec682632b69fc611c027656fa5761e8277a34608c56eb9f209e5160295e2fc7fbd6cabca287bf302fbbc80f42b0183b7885331fdb3d03d429c4fa7d0cfbc992b9d183803b83a1ef98680c2c4301fa9dead47c6ca015dbc31d803bfd3b3e6153909883791ac43a70126a5525ccfb2e2c863c158080eda424362046f0ba90a32528672ffe7ef4a3ea4a3d692668bd40c129abe37b2406404ff93b43bd3fee4eb57fea940d89035300d089a0a606d0ae97a895dd8383d2d40cf767dd14893419e812df28de10f36de1b764712d92ab3b6c3406ba77d2747e97e0fa1388073ed4c7662401294c07065fae2c3752d643eb5cb267bb83054387126e9fa5e74ef88b931a3cf85b169dec2b99ef915749a272f017b2633bcc1c3304134eef7b0da70f45c9eed0fd04a7ca1e06bc4d943eb3b0981cdc48235f3c091c98055ffc5aa21fa84030d3b311bd06e1d8b43f08af9fdff16bbc43d1fec355af38ae331bd0c30e676c3c69d24ec3a31974fc8d774683d81226ef\""
+            ]
+        },
+        {
+            "caption": "change material: component1:monopolo to: Copper (pure)",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"04beb2eca88da37b91a29a4888f6bca01847a0d1c4fd159aba49a8a852c7a6ec572dbcd1dad83dc9ff7ba955f637ce6f6ad600df255be8662444c2ee3c8c829180\""
+            ]
+        },
+        {
+            "caption": "define material: Aluminum",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"0459b72f83152b21fd20489d4c74ed3b134282db8f5a0c56f97d15dd4a27c98c2ecf72e70d5589eaeb0a0bea12904f19d9072eb61b2e2d9a986ccdaf7e5d0efcbb8cd1a46abce24fee64fa923fb4f2691a3368fc3d6a93dd8bfcb266b063d984d229013354cbc234fb8ec41a3d8eeb837172872af24aec7b8f499b1f8fd19c6deb18666735cf710b9ac76cccf7f40b234f094c2068125efa559cb16d7b768d401537323fe20ed53b8121084498e9a7ed8ff651606f26d99b1c208defa3b121a38b9fde494dfcfc5e286d6fd7fd575e229601768a868eeff30d14cf724b9469d9a7fdc337da6d36c382cdd3de8f4340e1a6407124e3c450d8b34bdcb6c2ab87928bc0dd90b7f8eb9f49e2a57fb388f1371fe7ed8c3a0fdfa72583c8df9398d761e435967c06ce6841868c6dd0487e0a8be418d16b0b4739aa505526c7dfff92f937cd9627c785c34ce2b50d6f0b1d28e1361a66c564dfa6b9148fb88f7ac743e63b23c8e766fe6fe357a3a59ffe57b5df450df48b8816d5e03dee7bb2e7d427f34fe311911a3f81c703af9b70c936549ce02319c5e6c9bcdf38791e98364188fff0f8212cac92f3aea57f399beabab3fb96615858a4bc46054af29c5901ccf94ad5be795a2102497f0aba9208fe8f46a94c84b1121f863119284f155d21ee76b4127d570eadcfbc71199cdd11b1508d3f5030ecce620c0d0d682709a1008672549d9fd59d5d58557f5f17a64132c62950944322e80924ed7850b0b64ed27e5577fcb3336f3cfa0ba23cc06f06f8e60e59bfd4fb59bdfca3ca282b3a5dbc2cd1d3523551cf2262eab7b233d8548e3b1f3aa7220ebfce79fb94672d66cbac15a258d6e5a55044374156c482923ac09049739a94f1f42af9f5ac413d629a494218a87f193693301b64fff85944f15db337cfec22b6c1cc651b7171069d44797ef427eea47580bd7fcc1cc769c9d2fc459e92661ee18a7cdfe79451cde220aab47e4518018a7bab76ed6853f42baab3f4dbd7cee117fe9de2afb6fd470b9ed67400b8ce1773689aae78b2da84331624cb6b567558d27f98c55fabf65c1b9938208fb71ce561a6da0f845de408db47bcdb8eede01fde60f44690fbe61175220e3b17aced22323404db8f7a6af027a3904132429bdab9e60c2e601ea1054666061d0abcb867bf82e9706ded3c9d9f395299e3e27c88ef1b39c8e4746fc9a7ce93ec412db321188032c65aa344d027df47d78022fa15c241f18e86e11a39e27d84fec72b205e8d5f61517e6533d2234dbf70b916cf1935785d347d8224cb090364b4e6fc43aa53b19355de4d50cccf16efed623cb8fb2e117c370e1df1af12bee760a8ce14571e4d2049bc1b7aced4e4d40069ddd6d3bacc12fe0162ca7175fb64c50371a14cc617900d61c9e00e18a260069ba80569419437e68da9736a6d2a2810b6a426f5dcdf192205af8bbaa8ce938da54cddb72ced9368fde27aad29654bd43e4509d853bfed19cd0ad1948d3b8985b6614b27ba65f2c0f9e95401e7bfe773149559c787afa0f87c4ea042a65bc953b0f70a6d81e1a3458b6feae68c3be73b611eb6efaf5eae4256e48e554fa4874acb015ffa36624e6a74619a0f0fdb8a36808303c37383542e504bd5712beab67ffdfe3589e0ae4aa63fd07ec5f290f7029b6bf7ef58fb3f5b325497ca0f61cfcae1ef3f49e5e92899984e1d8c0e0ffe6630c35979cc4460c0abc6c6c85f7000548f32e7474404f0ebf2e5505ca60311d8a29b1b689bcfddfb1c42b95286f5ca56adfe76db384392ef356e8ef5e27987ea0c9057bb4a0dcd9c184f7137e8d5c9fcd651680c9f8310fb7c5f31d8278cff47ef8b8251691d7ce870e218adfbfe518e42bd59e6eab7e8e2cfaf1568928324b345b8f035ac881fc24448b758045ef36396df889c9362e89af904941920ff727e0b7d1b7917ffdce5273c3b17038dac20f24f2b571bb957b620e17dddefaa727ade0aa3d78b6ceb7216cd41de9d4f7300887b579349207af4c7ba8831332b621123fd3e13d2a10579eb8a5c9455107cf1a544bb3bf925039c19069688c31f211e0763b5b398a2161c76028157696367c071a09ecb31520dc046a340b69739b3975c681481901038534d0e86cc2fa3c21d1f03880f754159782cce427b0df3a30c17861e\""
+            ]
+        },
+        {
+            "caption": "define cylinder: component1:lata",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"04333f283562c5b370840e5ca705ced339ec77f10d80b94c99d5a982cccbf4ef09e0e96f1fc8a79432ac9e84d2cf9c1f372609f5f43a5d918e24746f32a13c41aaf9eda35cb96550b2263e05b5e47da941b73d6a7ec91da212436ad7022266e0254708be76ff349ad1db2546fa8fdf14dd4b0435bb966357006f83c384c766b8fa33d9c307a6065a70f27cb462fb33a495d48d4f68ec5a12f552f8d49e0546d5814f2e19b5c31cdbb5b7410c5eadec3a0d3acf732d6777679a8bac49f9b6d393c72dabe5c3caa6a6dde8e26b2005d8e7f9130de2efe030c89560568b0c6348c8ed35f5059fcf6ad47e02bf666b09f66f09d503464e242502c464bb7002135410b53aa8e243abc9d76e38c985b5a39335516b86a1b95bcce38b65b5eece255f8c6f\""
+            ]
+        },
+        {
+            "caption": "define brick: component1:tapa",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"04b8b924a0007511c490937dc2030e6f534526b56694210768b2d7b3d03c9f452827b0fb52572643d287d91f61ee9d1c197a352c7a2777ab25db1534227798422f977bdfb8837ca68d9a9501e76253594b059d5b4068dd4faea42480543162fed78fdc2306ff4beee54b2f0f31c68e96e8e06bb1f8cbca0805a52ad5e4b1850b175a4fa38257ad69d47e1a77eddcbd4812ffb6278e44cd4f2c4eee09299c7d399551142b8008eeb5c6283628302e6d0c8c3f0ef9b1a30069db6e92c225d37b91bf03ff61cf11764a6e939e217a96cca0c3\""
+            ]
+        },
+        {
+            "caption": "transform: translate component1:lata",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"04c88d6e9d7af62e4b6f249a45facea65dc95edfb5ed6dd94b5cdf0387e424b62d865bd5d71e0515bb6193140f475c9781561dc80c4967d46fac8091f5c855b33889fdb67ab5e14afddece4dc4b8b6507096c63c966279000a7f3a3f82854345d7b055a669d306a726357f399f587db9d843793b6f5433d792733b83dd722bcf6b96fb8fd428b75e6861aa2453a00b4c9d544a7e54daad8428850645d69afa27e107bc1b62dd90ddbdaf631272dc6506585a710a735c5eedd0f5d98b25fce890533d48cab850c4ba73d47942056ac9ad000502fc86d8edefe6ec70d75c31652067cdf0983fc1fee6d3b263f78133a1b9c27606b845376feababa31f729ab83f3a2b98edb5584942c9a8f145bfb9184ce28cd6b74f77b87586b0dad6a73668cb41980f62db5c646f18792b1ae1c7cde743d0dd4b2c6d1217f990c84a7579daf006e542bd9bba011411682e13cbf6cb58e066560617ad357fc8067ff67781d17d6a29933a1040ce6a5fc542b83fc2417e53b33e2b370f2e2452e289f7afea578994edeca4761794a2d8a2ac7de73f48b7bb5\""
+            ]
+        },
+        {
+            "caption": "delete shape: component1:lata_1",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"0450f0ed5a0738e920d919c2a754332e8a5c2b4c6b40b0eed11681ab61de7a26a57c7f349fbe0c3a00be7a9360123e30ac\""
+            ]
+        },
+        {
+            "caption": "define cylinder: component1:lat2",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"0454c47d4c21d09a8f6d8ece4d939b809ae833ae70287b2eef90e588451fae873d24adbd063ee86ffa23a3d0a04a91a1c8d8d330cee57b6f8255918201f398ee7ceca5c005e69c4234ba7cbc8f45df3e6173a8d1e5fd9d8e64f06e17fb8f2548bff384a51eaf39ebb1dd6432e9e2e601792583e286c4ab2b7ca9cd611444ef239c5f914927532390bf45acaded0645d21c84c3154c072487fcd00c0504ab23a1ece36eb7071921bf34b0a9dc4f9da211001ea61bf5ad21fe7b41668f486da45a1c4d45df4ab5f79774333f8ebde5e1269ec9a488df278170da7e9608b199a1fa5088700c57210854811dcd737f8208ecd8c35bcea0e6482f642657ae84a456162110165fb4de3c4fdb11c6a119d9a39008\""
+            ]
+        },
+        {
+            "caption": "delete shape: component1:lat2",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"046b1dcba027129bfc29a41a5ccca9c52f2020eab6fe6463d7e33329bc6574f9892d3811ca88269e13a902b78519801b87\""
+            ]
+        },
+        {
+            "caption": "delete shape: component1:tapa",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"04064544423a41908daf622ac92846f991af8f6693a9905a1a6d617b6b4f56aaeb2e914073b24a566a940c4dc68d144b37\""
+            ]
+        },
+        {
+            "caption": "define cylinder: component1:tapa",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"04e9f1fbc9a58f7e738e56d6eada638dab5f3334f27c35b5b7029cd3cc4d7b07be3c87fee3eea4416a801b70d607c1972f29ef85ff9c6762c563aa1a2de0a41076afebee5b21439c5045eeca800e5f1e254ac8b128b64584893dffa785ecca7e9e9404b68845490ce32f4f537564a1ccb2cb7a0cf62bead7ae73c804d91d153c7c4e64827beb2bbcbdab0bf390fd7e2a04104e7c5f94470c0f3c3aae0a07277717f7f1d64b947cb71790a85b1c1afb486eb7e297c75b9974efd20d14d37484056773b390551728aacbb0928f334a7f1f6e3828a10a23d5ce3d53149b786f21c03799c876da782c3487fa58d40bb6b75cd18f310a1d39bb84a18cf894675d5bf3a9fb24200a1bee9999758082a81e3432b074954ec40e26ca5af662e144735dfcd9\""
+            ]
+        },
+        {
+            "caption": "change material and color: component1:lata to: Aluminum",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"04834ce076ba2c81cb2730957ce585fce0cd082103dc5717b0fe6d7b67136cd389de15505401391c56e10ba15f51df5edcd4975fde9d9a52e906dd158e8117e7bc03818e6042ecb148bb66d95830b20a6ef07461165719b1e0a84f89eccc7fc8ed4628c30523a38452cedf02e376064ed9bb31fea923d95fb6b056ff0203518d6f\""
+            ]
+        },
+        {
+            "caption": "change material and color: component1:tapa to: Aluminum",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"04b1620f45a2fa010402c2808e72b2a51f41b3083a8dc0c0fb2f01a561867a9f91563d2370e499e0f19ffa551949028166bac206af329e76aa0c1c713bd717dd0011280f1de9da6a00c80aee0b029aff902f6134da25a16cec1d04be99404a7fdc4d5858e1a65691e237ca91fc84edc05594eea07d9f7aa64518323e37a7bf84b8\""
+            ]
+        },
+        {
+            "caption": "change material and color: component1:lata to: Aluminum",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"0450695d57f7a6106c9ff29e0d84a7b0c198a167ab6fe50d320100f3e7aeee3c436605189787cc47ef901726c91b52f6e7bc19ad994f97dafbdd5983b768fd7b03cd20801acf443824cabed67727769ec7f6abe5fd59e1d58b34ff1d17e58c08c3943379fc1fc7c133a5f230d91efeaf541b63340afabd7599b606a4a1618aee06\""
+            ]
+        },
+        {
+            "caption": "define cylinder: component1:vacio",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"04d8c2f2c6dbd39b781bbb25e613d60f5b666e620c6d5b0dc64b61ed362594ec6604485fc32917120f061a47aaf784957c528de3ca99c2c26eedcd007c900d1a1bd59e77ee1ad768df4239df31a957917daf0294a6fd27bfe62576db182a41c8a9ac8ff8aa6e9b5f3ac7d2b8995895aaaabd9b0c80d4ef1abf1245f062e21595ae3e36a1f5e675428b37bb12ad2876768caef39ca03f9b2076087d67c5940a1d93974e635386caef9995d394b121f3c195c9817fa918b07c874bb7ff50732a402f390acacb1114b56861677d8ba80bf765d648c2feb9916b8618e145fbbdb89b491e9b857030bf68ca940547ae446445e44342d855dbdda9840f862fa742620d0dc8e39a9500ea8aff35adee2a5843ba6c4321dad77a4a14c96690db6016dd7bf9\""
+            ]
+        },
+        {
+            "caption": "pick face",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"048c475152499b99bae88c958ec277c87634e70acd6b658a23767d1d01167dfd8531f15d1bcd7042f6588fe8ae17945d8f\""
+            ]
+        },
+        {
+            "caption": "define frequency range",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"044c8e9cbf10b37a863d88068a5dd542d30529a0a262261901113ed3bf81fb50e30f4a30f3e8573c771b3370c52d693a25\""
+            ]
+        },
+        {
+            "caption": "define boundaries",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"04aee7fbb58f1841962f3d09d317cc5ce968f951de5414214e04c793abfb820e88244f5bee4fe2f29fcda12f9297777f0e00f52eb33ec59889511c8dd5660a3b0fd44a60ca706a34fc17dab268be756aaf20142bdab0c72ef84a1b76a9fc0dec0ec28648a7057269c9c0d3571499bb018845c1b87599695fac4c5375313434975686c648d1c62078f15f38c8df168ce8cbb96d69bee563c1dd3c77f8ac92d98e52fd54c1ccec4ca9870b69ca2c0c02aef9aea29261aa8bcad26706640f0c406070d28c84fc0e6a692566c5cd6b812d5b68ddc9e32143afbefd0f3a84a3d8ea5cbfcae4dc7235b29747c6449ba0b3c1e94a\""
+            ]
+        },
+        {
+            "caption": "clear picks",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"041334db5f4db1fd9c11a0c532304d3ddc60b1cc66b447e7d3201ad006d58fb4b6\""
+            ]
+        },
+        {
+            "caption": "pick face",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"04655900088bcec11d76a4621cd2443296be6f6b941334c9b19a35b3be65d2350a3c4a34e99ecffe5e631dbb9a1335d6ff\""
+            ]
+        },
+        {
+            "caption": "define port: 1",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"046168f1a3b6ad9d46c19a633cccdff49940687330eb728aff74375557505d0d99a576306264f8f5859ac6632007f234a830df8c24a57766b89e9bb8e72d42901319453d9de98d6b6622916d3ea129e5b0cb8a47c8c986e0375c6ee4f28424d0c47aeacbab2da9c0ceeff180aa9d60754ed02d3eedd0e573758fdc9bc12b5d1d0d2a5faea81c319bc9080f9f7b5b0b7652334044c043f5d2b7a78704d33a4510f63064eefbed14fa15e1f5d981fce878de08e5ac79c5e39b52646f65d60521372d3a1129092e8d9e63c7544ed912115d3d2c7f2ef13283080e5a65b99e037031b7c60eb137bc595e5ef2e66dcffbb61e8ae9922b5319017ddaa24dc2a3b6382c458e44989b8eb85657043df6a0ddb09b1ee62b1bfbdcd9af91c604502561885c9b170c4a1f12b7939579e750502f14d3a75c76f7b4c23c10e27fb6cb00652af74569ccd6601e84694cdd915cfd1eaa3b158b19a7f70a72cab8d3283f70379cc33d470187fca9089081cdc9fd4adfbe0ab574ff6b8bf35d3ff08b8a0cc53bec5911e97ddd2f2c55f2238a694b43b8a6aeab23c6657279baa35df90781e2571601c0778ef7b30b2e45a897ce94b85e8a3ef1f4e84b86d0b34fbb9b85f515d73c2ed21382614b81def31da8f661a181a8db545cee34c5d4ce2e9745b3604141d75bc90183eab8138643e94e8204d0bf06f37cc9fe67627103ade54c8b6da96ae37f62b19bc4ed1b67c9d4a0acbfa814a68b19c140439d650b6133191e5866f0af9a4b35ce03b246099e8deb211175a4ec415543152c41c61e2b66317c091adf10d12fac7e97698445555683a748e72ad4aa64a5a4ddad4dfb095b7b8546f41b9c4cf70dd1e6b5a84814e2af0b8b6b93f52772\""
+            ]
+        },
+        {
+            "caption": "define monitor: e-field (f=3000)",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"04f77f621cd0d7f953a60d5c1641bb46f3210a962d8ca502a9ebc9582051f7e2c24203054e98003052d984186592ce129768da512cc5be35a4d199ebc417020344e1471b8b0589703b16db7370857050da76c7820bd892cae12905328177adff752387d5bd5253f8f2ad491a5b622b90a52310b007ea500b82d899f838dd0d18919478d9d8bfa1e8b062f7f1d8085ae807a9447b9b499192261f1b142ae643f35d5f975bcf384f5aceac1ceca8279f948356531af697e0e93283130910c1bce4493084a236b876ac93f01b655bde8ee659fad72a57394e54ea4f8909dfb3222d0af84a8714178de6599817344147d7f3e2b70b3b14cd464b9b5073d3dba07d7f1f1f83102463c6f97131f498ad15939bd374aaa186495dbc5a9cb93f00dbeb393882a862802a9633b4cd6a6472f7544fe1b5df535bad33b824f7e2b806a224f7196b616ae1d37827e498dd001e0d8da724b7652c6dc8f7a61cd8603e2f662f71c9b3fabde0e30eb12515f851d2d515038dc90a18032236e7786dd541247a040af645ecf67bbdfe97652d963e13a4eac8718a4d92fe0067f92d02f55a45274d8a0e49132946bf6e85b55f85639b27a49327\""
+            ]
+        },
+        {
+            "caption": "define monitor: h-field (f=3000)",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"04d89185c97cf079be9b71e75f09d07dd515edd7e30e5a30503dc8597f902dadddfb1a4857b8bdc1229882efa6f4d187f8b3c851dd6c1f74d17ece7ceedcad2efc71e7f0a9786f2933dbb893d49bb3fd2acbd4e96870aa2ce106354b8c02fbd63bbce5ebb0eb788c7543c668c8ac5a60b333260b925ad0710190282e7ab0f5b74ceffafac927589acdffbb98764b492d41453489c5e635c22b054b35a8e995fbfbc0ef6e83d5c6730b6a661d44113668ce4cb525db78a0362b6ebbab2d3112776211cabe2c1982757ee53273606c0500b2078726eceab6fe17cb1ece91b4fff1674263cb43e0fd7b32767f46a369945cd65b6b9d9803adcfbc2c3c8ef5d00bd3d85b36c92b301a0c3d34157eb184d12735983f25d27f700a5065ceaabfea1fad97388c209d3345ca3a088919528e40b1f86935bd130f99119d4f07d35fb3a7accbfa79c971e1f14d2b733104f5ab2406094084a8ff4d9d624010d7e2949f07236c1e035b764b20b4e5f4c2502758e78f0c693c170a9a25fa1c07eac4a628f2c5d7b0dc5cd87a94d61f4ccbc7fa71d6f49e8e21906509b5a931706171027201b2da2594387f951b7688365634aafd141308\""
+            ]
+        },
+        {
+            "caption": "change solver type",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"04ac5fb3f2663784014a040237067d3b1e4d62df1e46cc046bd844257178d04d667c96d29ab7fdf3812cfb285caba169e9\""
+            ]
+        },
+        {
+            "caption": "define time domain solver parameters",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"044dfd74754407f044d48ad3320f343d2f88271bcb7065a1c497079a3a63084cac01a7680f4b61b16c1caab89c54dec11201cacc44b79730fa655f5fdfce01ce01cbde569f52414a9ae04e96ec9d372e5c22d007000e278c4343ca06ebef72a26c3d773576ad99afbf16b0a3730454f98404ce86740ccf0d750d9009de2833a892117f01f49e3f90db474760a98142cf60f542fbc810700810ea0bfe628c73d8ed560d22bc0961c4a38b7a1914019ecd79601db741fc27467cf610502df41ad71f592d92f00f34d914bba401e951d338cee55cb9a016952bcbfde07d5da41b7ba3bc3ed9f09442fc52918f511f687a5f56c1aac621e22670b886796a893498b2e29cfa287dc880b3ca3510799d5431798b301f658e69e448bf7a66917292b7fcd4b3fb5fcbbcb6f2622d5d3a1990f6e971b33dbc8079a5e34c637d6c548e563c71ebf1b6df217d07daedf71525b39c4892cc05f8796fba9956b00aa01820195031e5077fc8896ee7a0a589769e6eb2325e04d45e02c9a48a0b5c841017f94c0530a9ea8edb2d1b34955b2a683f10fae0cfb276eb985562ac37b9511999b27b890e61dbe9eb99c5cccfb5392fe06914b8c4daa1abdf88496badf8ba80ad9093e016078ba86411d40c7cfb186327b9728c61b80ceb03f4200d5d02eda0fa73bd5dade34fce29bf646b4b374100f512d17f5ff05b93b2f8cd26f9ea3af1845edb8d016fb5db48854605e37d34d29b56fbdbc5\""
+            ]
+        },
+        {
+            "caption": "set PBA version",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"048568501e86bcb04951a62d379c53f6e3e84d980fcdf58913ce0b138146ec6ee0fbb4199a47937933cc05529189877dbb\""
+            ]
+        },
+        {
+            "caption": "clear picks",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"0478fb2e6f8a0216bef56fd20d41ef27a3bbbdc7bfbdc0f40a39a25e0b58b3ae00\""
+            ]
+        },
+        {
+            "caption": "delete monitor: e-field (f=3000)",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"047ccf439695a59f6e0ef4295f3d7042e4d2ad2550180a6161a8cf9e80ef1c8e043256ab3b61cc6e2ac294f619031f5ac7\""
+            ]
+        },
+        {
+            "caption": "delete monitor: h-field (f=3000)",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"04200f0239bd82547e0ae5a0e1b4ebed5d920c56321af8acc8894bcf274fd0f33ed09cef5b97fc4b2b163da833e620525c\""
+            ]
+        },
+        {
+            "caption": "delete port: port1",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"04f84b68130f2ce819d437a3f885e2cc7163ec7094ba1ac5c5099cbf12fa58726d\""
+            ]
+        },
+        {
+            "caption": "clear picks",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"0418e8c6d2fa475d99f33f2b724efbe096b92661479171c55e128abc28d31967ea\""
+            ]
+        },
+        {
+            "caption": "define pml specials",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"0424f22a8fcdbdeaabf8f9962c18d15991681fce46e22232d1a9a7cb5c69a2f385629f279b9aa0dc31c625e5369a8041a4b2611d1d5aa3b90959a5be3bd0e3a341186999a9732158aa465a32e2cd6153b2f57e036986acda1f754997c2abfb3d76ab3b73ffb97374d5546e61a1406c55c4650279258cec665070d9dceef0d1f06b5a087d7bdfd509a65ae4b0e5dd8003316f687c8c7af0fabd49d663abdaa68ae6b10011a79f542207b6f3f2c2d122ae86f4e461d51b6ef07dea7412365a1a7377f374d95a0fd414a5c44661f9913ff06183d15077b5297943c6b288ac976eca5bdc2bdda0af326abaf32486dc107a4177f82de0cc098d1eb3bf9ce870d41778cacb2e1c0fd3759b564316ed7c6ceac8212c1fb49498a546cabb610cdec42ee9e4\""
+            ]
+        },
+        {
+            "caption": "define boundaries",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"04e9064bb392253559b23caf0e92f0b1bf6c23d4a817c35ea9a312b5cbc3c90c13bd7c53e65039350bd6edf64830b7fbed65bf1155f0f0e1268856ba75e5ee644db88c0d0bc207d8c0489096b60201dddcebb9bf6fc88bd5fb604fa1608b0271a0c51504bf96113a5b7099c9519af273553c2bff7a9e66e0e2de57fdd3f3644aeed70a873a8c4510b5c8cbfd75a860fc4e4091618483be00db6a30185b7024b40dedf883a3942d988d7bbd5c3e227d75967eb1a010af04975225f9d723542a3b3b86e9a67d651d7b8a15b0007552bfd3835dac8103db9f4c526b679c830f231bafbd6c7a20ff786c2e9d8e8178048ce7d0d05cf7c7a09de95ad3bda61655b9fd28e050db4cebafcbdf3c4f77696badc3974f10b6c714b0248490f306324a1c72499838fbf91bf10d6c32917cac969643eaf37a081152571c7ca594bd95279a0da466b9ac0c9638d3040418a6e33674d854\""
+            ]
+        },
+        {
+            "caption": "clear picks",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"04ba0757ad145ffb108a865cc0fadcdff531ef5117cc68a7031bd22b4d67ff96b7\""
+            ]
+        },
+        {
+            "caption": "define cylinder: component1:dielectrico",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"04131e8259c00eb4023c41277049887dd094825492e1a002adce0b86b1e0af8306c08ab297572b73fed67404e090c274bda25cbb9e68cceb5c25d4987778eb0637766f83a44636c2ea4925d5676371dbeb268718e943b666891c23e91138c22ef6b15af92dfb3da210717160ec14ea48cb89307cd4883f143444fd57d5b6dcf883fb32df92531a072cb2b6b91bc6fdc32ab74166a7ff9508f372f7814b6214de26f420d66308d2f12b209ccee4e91e3711e2534535eba87b90bf01ab7efd995118e867f30f5db14c6a768eba2259ad7ecd2269891060d75e2623580edbe744090c12e3c464609f3f6ac0c32d1bd45727c47740a92a71057e9abbca670930c33db59bc2120399e694bb097b1b00e55859ca394239105f2024a081d61fadcdd44ea1b7ca83b9e0dd4af9d9bc61fb1445475c\""
+            ]
+        },
+        {
+            "caption": "transform: translate component1:dielectrico",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"048c84b90cd689b6b3598f8eacebdb68f61824a6e825eef7c0877f4eeee5f8f5f297a7b35805c826b933402f51a97d700f554c540446e9ae4e38ebe5f5bd4728edf08fa6c7b5743a06177ef67de2ee53a04783e59d359df828707d9457b3fbc3b2c437c678024de779ebc85eb72c0dc93710c583ae4f5cc072d439454337fc63fe83aa9125e9d390a0c707a2a245412e1fe8a147a7b325fafc44144f8fc882ddb23a97137cda3df122c427537f71f86cb0d1503dba44c5ea5c999f223ef542b27a8725ba9e73f6e7133e9fffc715619f66f7740f5f1de22ab1351c100d695bac27850d6f99698d6feacb5fc380462e2de67a1573e13e4f1e51d6b6032f213b87c661d8e32430cd790fb11d9fdb8990bae2988698d9a57f5ca9a8461b5d36f98efbe7dc8edb69ae0c24e5498ab52b13894edc4ad0cf7aa0bc484728d4ba404a19c95a4c620f89008fccf67f9f525a5e2ae64d9b70207f6180fd09d6200be31366fe7a6b7869e830ac4e36197b7cd476d878a0e6b33cfec2c43beefcdace1412d6e4a481301a7890a442a6038b290b5f209d\""
+            ]
+        },
+        {
+            "caption": "boolean subtract shapes: component1:lata, component1:dielectrico_1",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"04d89c41ebfdbb545b9b8e0de6e64694a0128bd2484a7d7d49eef9cd7c333ad2b2d45575f739b7c47c533827a2fee6ae9fcdaae9ecdba889e14a039489c03932f8\""
+            ]
+        },
+        {
+            "caption": "define cylinder: component1:cond",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"04400f1385d31b6ff0e04362c79fd19ede082933cb6a837d420a0189d34270c97cd89c15bc30b1a9cde62765b469d98ba854df31bdd3c935e7582e7abfda0f83d7547eeb767ae81bde29dbe2d932178ff5ff741751426cf9d813980b7ecb7c0d4db89c70c45d7c8db9408cd57bc632e188d0d06df14b5d644d1de6149d7540d8f2fc5662d4a00d9fabd03c93bd97caa1b23972ca8621176974297b100f3ae06f6f73b4d2cc71cd36be5110ee4a355a6f479cba65d5afb809e8163d4d73b4201c21239c6305064ec7dd4c6de79a120e8bf3eb925f14e66843cf9b876b8addebcaa8906100ca65fb0b4d4bed294bff1529a3626b9a10ef90aab62ff39d2e1882c607c1d21a67afe245a7328df1fd26586835140f186c9577075c161de70a3bd6e69c\""
+            ]
+        },
+        {
+            "caption": "transform: translate component1:cond",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"0497d5b7ff8130837e63c81f521229b418dacbb53ddf7400393c5ce6450af544d5fba251a5a6bc8b692fc63b3092cbc7ed1cea6d409806c73b8cc868467bb62a69d0ec56f6ce135ae3a35987c9f6f4828421624f68d8669e102c46678eb9801d31f31a02f4b718cea4b997d11c1a750190cc7a901f24502b14c40bb72b34c453b9c51f3b06655ec2225568abc9fb521b52f21417cda6022a94fd1af8826be212ef9491de53921de2cbcba7e177870505b42868b071efd9ae203db50bf1e0ff4ed0fe1d3f3cdd03217169f157302e31f4af14065d3565bdeff18b0c3feb8bd11379f987108f80b2100587093e5f3c2f4b9bcc55f99d9c019d28fc510ae6f9f8a7cf6573b3c9ddc5904e7e07e5e24e57744e21ccf577a72f757205dd2f95ef2e34084397033d034b86bc7fc1c034a71dd4f2714472bee661288c430b417c76521b37542669e4c7b1007bc7d966dccc6c52965c3e17d77cedbda75b7c080b1c4753a1eed38c67f99ba218d5cd5b5667556965a98f76936db185529682d468807114b5069a8da6d1dd44b48c29df3aa4b119c4\""
+            ]
+        },
+        {
+            "caption": "boolean subtract shapes: component1:lata, component1:cond_1",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"040baa74ef80c7b7dd4d492e749b5f13d0b6db392195e14fe7ff3945ffab01836e25a27d45fafbd7cd0623e69e455af7bb932d0c8b78edcd8cc9205745d4889a28\""
+            ]
+        },
+        {
+            "caption": "define frequency range",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"045e4bb4fbf07f0f0a09f1f107df171b906bb0b6c8525bc46899fd7248745314c8b5de4695640f3f20c0ea9f8ea2111aad\""
+            ]
+        },
+        {
+            "caption": "define pml specials",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"0435cb0efa6ffb70f8b7a5c4bf52d33ca8f127f9bcda556219e3f37e1f8f2f3a9460ddb465538325e39e8c7c8a116aa0b12fb1ff8fa2a6719bf7709b80c3478897a009928ea832114c7ba9254a8f8ab9834ac3e9225ad357f22e42b1ba1a7553c6092a5197987d7ec12f065219c7c9770f819efcdaf846e0feaec411847cbf95eedce612725602df5814a59a2cb5d84a2f81172d68e0933c08673642d646628047f086594dd87c21ea6094701f2e49aeafb91e9883692c07b73f711d61a06ff2f72d0e90f9a6d6d2b409dffc33a3ebd59505c9cf373ddf7b13bd9a2d5892fad7979a59c51e38bdb134f56c4524bcc578b39ce814f92a1513d52bc943930f8db32f05099574c3b7928a095328cf8bea99a9e4da1a487f0f0300db8da75d4d52c5bc\""
+            ]
+        },
+        {
+            "caption": "pick face",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"048b15926d15bdb94375150387e6862df0f3e199fb94e73d8207ab0dc2411f479287f7c9c1c3ce9afab1ff913a8a145df3b32cf6d86c4336e9f1c5165a859b55b1\""
+            ]
+        },
+        {
+            "caption": "define port: 1",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"0473a7cdc4e1d1e7d2e50f5c6ebdd2295c407f18f730ba87acc73204abb10def53165cacb9b5b97e078dfc63c0b00c850f8c469aded1d1869498c481d8ebab4ff4e21815ef88f1bbfe466155e86fc81da89c9acf04d15280826aef532a2c244284ed93de333fece3e52c6ef40e1a7c3433cfe04f4296e73a08d61f78fd1a446de3ba8acad8b85a59ab0d8e2eeb6b33fdf88a5bb9ef8ee8d949b29b9df909a0451cb0c46a60a5afeaef7dee58bc8bd25dd379430c252ca79465271a86a8a25c97f26953e588c777ad1b708cd15d601623883235c805367a8a4b76248a84360e88c20f137807da5e43733098cd508a12e7a9ba4f46ce7551078c60050f7e0f662b8bd32a111d36e9b2582eeaf01648dd0563dcf22f43e76dd40d86626e51d2432ede3892b2c4b73923d77259e523f56b59e1ba103415e4398ae68b2458cd02d389819c84feeb97458884b2b0dc39ffb277b7a91ce1ce12997cdf73fcb78e5621fed806b529ff4ada067732490842aa94929117f4559173e2c7c34271fd3d8b81ce1232aa89b434c8592ae6f4a481ec6e743cab41ffb026db8215d8aaee275fc514106d3bf4a1b6e882db6b7998b31c4ad537593445a85ed5520f3e5018f61c6cbddbbf300a8a7678c1f0ee7e3c7e0a748361c2d8e39a0bcae9a5dc7e5c92686c23c8338bc2196450544f48134508cb228503de62452f6a96b1f4166b2a780efab995993fac98a8871fe18c22ed162cd0173fa8d0d247e23abcab799545f0b3e2e713378da80e1f9094e632addb8e36c75ea3b3abb19c281ca38f265600529a133b15f50a4cce2032a9d4c10db9bc059c71b6a4f816ad9e144656f262e2eb68e21cbb38c49abffc0059b34399f8380d75fb5c\""
+            ]
+        },
+        {
+            "caption": "clear picks",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"0478fb2e6f8a0216bef56fd20d41ef27a3bbbdc7bfbdc0f40a39a25e0b58b3ae00\""
+            ]
+        },
+        {
+            "caption": "delete port: port1",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"043e9d3fccfbfc8196fad3c6b042ff9a219d77e56e7a44a547a9786097c8f3e78d\""
+            ]
+        },
+        {
+            "caption": "change material: component1:cond to: Copper (pure)",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"04321a9d41b344488fceab6421016de2b876708b6e41e232f305ac0f66aa59c586bbc9ff0d67a29e30c3da9531e1e03d97d7c78e4a1e3614fd879c8f050e524535\""
+            ]
+        },
+        {
+            "caption": "clear picks",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"0414185b5562cb747e73c72304e7efb9ed75fe3004fa49d8afe1b49efd0bd3bab4\""
+            ]
+        },
+        {
+            "caption": "pick edge",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"049ec1d5fc9d22c099dd1f56759ee866a9da05e9ad28de0f5df33977a91c21f77f6fe727f95effebb1e6c23d07377d066f68de622eaf11eba6141ec8d2aac2092e\""
+            ]
+        },
+        {
+            "caption": "pick edge",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"0426638743699d586ad73a97a87a0bcd76d4625309b082a50516df312dc445aa4b93d9203450eb2bd6c8151f005998dc648062291d5b7a0efe11385cefe6ef229e\""
+            ]
+        },
+        {
+            "caption": "define discrete face port: 1",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"047b9ecafdf0e118c3598a8d5353cdf45906657ecca9847f11094ddd7c3c7e5f47322cfc82d8ce34a5f58f7d00d6a6311faaab6bde1b22e20bb4fc969de38bbbad973aa5d7224908f09dbf382db2089715c5a00af449bfa0ac614533c825ede0c67712661a8afb79954927c67bf725074f1de2bef40de21f2afcaef6acac74ac764e15f943150558ab7e3fe85a13bfcc996f08135647ab6a81304b99cb0f9142110a244a7f921b8d91a83a28064e2a3227ff1168ed8df1164241f8205952b9206e11684b09efbac7b84faf867898ee3e99072cd58852665c7fcf82ab0beca2d56a0ef86fb7fbadec26c5a9b4bb8ef3643308294877a0d09892daeb69fa618642e5947ec2ce4f987054323bdda9bea8fa512b66c296843bb6e7e79f2851db1ca532cc904976590052734b12fd3c4bb18f4a0faaa494bcc86205be8421b8a8728abe0d670fe148d46e5ac79821811bf807cdfe73b1334081f136c492be62bd2c66c09ab1720b9e3c127d066b95e49d47b795c2e496d9f7d7b712ae4286f37fdce299a29a649e2d59375a998796d81977f004f87a1449f7d15967187ae184a41b54f5b9c5f4a68bf6f3dd689a0c8a13941807222d10457e64142a19326ceb0eb2c378417bc14dc7716d16e5cb5ced7cc80ee27358a923cec90e39423b8f62ab4d7f820b7af3b9b8f12acfa2250b9cc0984da7\""
+            ]
+        },
+        {
+            "caption": "define monitor: e-field (f=2400)",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"041e29acc4cffc342b817a23375d3e4a1fd5399347d43d367237bc7bfacb2abe6975a52863b73c959d9ce8c452880b77e5ed4fc5dcb39a48e36b9f22b339f40c1afc5413389d88fa208dd1f9b3dd04c0c652b1b3fb2bc9a8485b69775401c187d5a7b2536e10203f6c92b645eac969854c523a77dd21c8d054baaa5e7898ced2da03341bd101cbb270bd3894c8b99f880389475508d8c02b7fe189a761628f9928ade1600cf1b1f7337a70b9f38b937d2b9433c3c9d103f479783f3f77afef904776fd9e68d3d063f6f562a227c24ba5b2501e29f2318edfec7b6c358a9ecf25858a58ede7adf184fff3e2fbedb9d580ea42a0019721e3c39b08d1a39e6ce1dce94a7fdfde1bedd25537485683b96884a3fffa5c54aae9a4680aade241c97d157434a7ed05f66f5815aaf51a78c45f4be18c5df20d6ccd1b6128057ccea9d9584a37593e73f6572075d19ac395ad524db80a1ce189bd1916305e8a450b115b127a1b312a43e1045e866f85c9896535c86bd6892caa5c60e799e891ed9940ccd0e06daf09fd077be8df1e5a02fd8492e0874cbb6590012ba791eb94fbfad12225c80aafb6c937b68bed0959a34d00e447f1\""
+            ]
+        },
+        {
+            "caption": "define farfield monitor: farfield (f=2400)",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"0410a89e79a5906ace87cd233afd4720d9b16fdf9b87b54190833cb6bbc4667df1f8c0b3043d176134ea6131a74c5ad33339df283609ddc2eb3c938c68cff3882a5fe4c6a8913c8a9d14ea33e844b7563974a4f18fd8a36b9ab1d11bdb5bc24f3b1de3ac5ea929fc77f4855a5c30ac28f27cda5903ea03b1dca8ba1e2b6a7e9afe79b860f2f0542ff98464da6c31744ab3966dadc09cb6c764079d076d75548c724b0e2ff418d53ad4dc5cbd2c03639c0e9abb2d4a7b853a010d1c184449438993cc7157c7357b8b4193ba40ed5f29541b1be6ed9cc8203de5add517b12308d8e5a6202145e4767754fffb30049e7248981131c5c657545c98abd10ae14c0eb410624306a77bf8efddfa0e0415863f44357ba31273c071eb613e3bdcf2ee289ae1eab2df723d7ea0d7fac2a2da73182cf99f9ff8ccf65e56fe62a2702dc7c6544c634f5a9b2b2484633ee8b40105a04dba391a885f626ec0f3e12d27c5db2007b1820f5bd2ccd56ef0ff41c61710db676b4561b2e73dc25ab3e69caec32ae1b7a13eee000b5c9f5d49615fb909bb8f17adafd38e5a1dfa397c88d35d39bd9d1403cb7fc2eb40fadb83a40aa3b0587c61ce3b612eee42ff21d88dca0e2c46fd25fa6687cc8be9f3acdc2898c210229bb82b770057395a38c33b56773b32dbbe132578a941845006fce2a648ab3c928f45c392472b378fdb683a9b1cb012ebe4d294117023eb1e96611e42e6076f6c025fe3fabed5686df2a3a8dbe93731015bf19d\""
+            ]
+        },
+        {
+            "caption": "set 3d mesh adaptation properties",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"040da32d1a97a5e65e3d5920099cb8ef343d27400ae8fc38774c7d548344f2fe3fb5543478c1efd16174c68295eb0d5d1322a95600aeb5513ff6a5b8a001a7407cb76c04eea073fa5c380d4d82e6c44c6b0420b9658d72493d328f80e64f6f85d4f61a5d55dbb51aba23809cf84d0c06e675f1221a17a0361d7bccf1b1626844b0319966f191b0af61bc4605b81317892211236c0f426fc5412858b7d9704a6ba97cdd1117af4050103a50e066feccc9e7a2103a6ac7ea518ba9b14596c36f5aa0982e92d9c22520d400b5f1b66469fb95b1165964bbcc5235279b3c586b6f190829b9f9b8d85b49f220e303e064fb29ad5660d8a0f9ca2ea66242ef9b7cd78a409ea5033e38ff6f0aba5cf66fcf091b89884128e87b70519b93a8e4ab13f166817a361dca42f5198892dd26a1d7cb2382ea03c1597f02fe07818e0e3d40f9bbd7\""
+            ]
+        },
+        {
+            "caption": "define time domain solver parameters",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"04980b28ad4e25b47ded44bf85a52eb72f639b941de61a328f897c15941822aaa32adbe47caadc0567b798116a3dd563f709ce81e5d74837f5775fa021db7d69bbf83f67cf9b7ce0c23dcc4603236ed1dcc5491b8504df9c099086a91923aea0d63db3559d724f391cabd53fc7bd31ce378d6bb9bf9c5ac9262dd06c699df9a2d935fc8a620c5c15d321a4bc5ab09fe98d8cfa09c902ffcea5c9ca8c391b55f9a0b89dfd4991930dad999732a68f7312bcb503b0f86786bee79c02e3728426a087472b3f72d71b2fa3c842c445d3d8fd244b8bd8399b7b417cd1bf9f165d1a9f640e32eae7bd461f6f926dafae9048c4639b2df439469dcec2740d582dd98cce7f182f900addb75c9b38d5743d8f28e24d68f52a0c6e0981caa6f337d4e8cc48843b3fd2cde992400cb5c757d3e56334c9d89081b28368d33e7baff31f036d0880360a7dcda0c064f2eb6502630156807e251d951b528cbafbb7e87f35389efa33b1698d4b7d54c49cdd8169286fda13f48ff11ccb774c75975d84d0b8cd1c68ceade686c96519c77083aec16355b80ecfbbe5ed209601a07ead0dcce8d57509a91cbf39673b6ec9c10fbee5cc18465a801e8623e3a38f4e97a13d2525688a60ae1cd2b360e6f40d183ab78b4cfd3f54a550849e0678ef7efc71e8867f1389f85877a4f6217314dbf5c5b261a814a1bfca7c743d885f7404eafdac0a46fa4bf6bb4455fd590afba501f3213ad4768deec2\""
+            ]
+        },
+        {
+            "caption": "set 3d mesh adaptation results",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"04546e99c91d450f893fa5aec9a54dca0de36d305da13b141cdc779c19b4aa296e3f73e3c843f2dbe1fa2ddef3e5d9a4a19ef82847a819bc17eac86608a3e5700acdfc3d4de7c7c68e37b753986427b952281a80f5a2b8bd983cf500776d7530a54f39da529b4ba254ace46729ebfe5711d0f73c03fbe673a8b4f75f613f712149d6c7de5c6ec2a88a78bc5595dac7dac3f007be5e1e29c8630367c3fdb44afee3c6543cc164f101b9620ce3db2b41a157aef80b1317955a98a1f17b800fb189ef\""
+            ]
+        },
+        {
+            "caption": "farfield plot options",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"0433103d35fb6f61e74053591956f7168dfe5b9de43f483250f2ace370743ca5cabfd1e0bfeef6ecb507c6717b239930e79602d32e8be71e355658108bcff651a8b32e9683210b3c1340189be05bba85dc2abc82bb36934ff867df8f67bdb87ee09b5fe81b68326252393784f6e3e4b8919d4ce0baef627d0fc09e7df25778108a289ac15941d36368e7093c2ceef4926c276b3fc0105c935271faffaabc8b8fdbfdbb79d35bad1526852f317623614cdd5eafb20221552bfb47029a706eea02cb4769440cb5929349a3cb69f60dfad11c89d8741ee86c88dfd95d10a26e4ad43bbfcf89ce0340985d2cdb92ace0ca998a1a9fa4aa98229db5a9de0fb36eae9eb25d5f75f34ab3c3c1fc0d40d82a32ebc05d3e99777b11b236564381f864604f5207ca26106b5bed7c64dd6ef084c3d230a3eb80d02efdbda18fbcb6d88730d52fc66f306b661c81aaf9fd12401a728b5d32d9428138a060434204daf22fb3cda757ade113373b58fafb324bb3f3e7924ba546dd344a4f697e22011163f801151cb8de748034f50b2b654bca42097aaaa1e38d1e242bdfd6cfb388f2ca9162819e244f4e61e338f617cabf2a4cee5de09b8674f2a64cb4d8125cee9cca6af9fda1663aeb69f44adda3648abe1fdde944c58b7236b72de5534c17f4a07280e4a421f06a4d3deee6805520a4668fc34741c887a5501f3109fc3fbbba44d84ff34aea6419cf82f05e76cb06176a335fae6499bc5873b860e75fe402f6677991cc2f7aca29997cf00ed5f7fb1ce4511ea3801b9ec0d6a9861a04942b3e9e4ae68da545e06c4ef7d253292b9be0d9aff85866899a713df09f954db7b5b9dafd906c5da33eb257a2a26a59c8b424d27e3e597868649d96114938191b3b6bbb0c356f631e0412673aa68013df7b877bcfbb3f1f5bc3dcc43352bada72dcec3c2d143c48eddef4cf7c5fd479ced47a61d9fe27bdfc12d97958b8fcf364c19c5f9a4b75aba63361954081c76d05817fdf3d5d4ad9343b04aa7c7a7376dbf8876531e433090654cd0b56485f2035e9b77ad012b48b123dc0e23296bb6b538c4d17908a61a5931b2dfc0360870540182efbb7caeedc7ed07a01262d705f1675bfa53f3574b2b67651763a100827d849c3afbc0d59ffa0df2aca337a5a0a29150f213235ee2c91531393a06ad368a42614cbd684cb7bd22c56b997fa7990e80b67ee96b3d3bc08d6a093870bf7a005c9fb9ce03daff22ec0fe5c89500cf6aab71d5382fe1734f242afe61735fed8c02d812ac32f3054d727799a0c8d78b80887fec3ad89f03135596121ad8f1c988328c2ceaa3570c79a5dc6ba003458d3f40ff528bb94298bd9863e2b3a3aee2e57c5036934b19b7b7ca151d471f429035c72d96c1669694a1c38c94bf92ba366abdac3432abdf2941b881746e3ace86896505894eccdd8deba8c7dd3dca029788c7ec9ec65ae87671a29bce0750ca808770012e243a99bff5c68d3134eac9ae8004a0b7ed6ef99eaa0156a5811d1ce3b669dae735f3811fc5a8c7f54f2c5cc9964060938a3cc4f658e7448003b99ec7e1005f11f0ce8e01ad16a27734f49a87f8e0614fafce8d90ae355c8e113a2c9a676285d2d20cc69c13b605bafbd5bb20c26ad2160ae794996fe48ca4df0ffc1451eb8aefa4100bf7d2a5198889d5f026d824e70a5def410fd059bc5432793cae8ac3669d964e4925e2b5f68343abfaef6ede21e4b91e8802a95de93f351e408b6d344d61124db20f1375cc60cf97ad374e4503f92160bfecbd4f2425e368aac7165b478ba2629fd6beeeb04dfcc13cdcd54debc552ea275934a59f5ef3d52d543b8fafadc2bd74e1d9aef7476555c6cff58ead68e1743c7dd164e1c5831106d72469e2c334d441dcb65cbbcae9d2672df17fda7442522a0cb276c5ce55ca76809d1d6b5ed5d4c0d46fa04b17ed99e40323df3a81d95b8d0463df96c6498e3ed24a1b6995636cec497727fc8c64f85c6b6b98c9e267220eccfa777729a41506923a96724d81470a9c37e54f8c100b6dd794090bb20c32dd8aa5de0f6e3a27ba62508686286cb8f6f6a77200868b5d574836774486f320b6a4a1cd365ade1031c89590dffc379f0b95ec8798490f88b0845c3c022d1b5a1260d821280f196125fb86f19435407f4bd4bc44c11a41c282442125163de3d59454e63c1f71242c386002b07ab30b42ed73bbcd10d1a1d6abaf1d51e02c7b346ecdc03817351c3f698f08c8de6d70f656eee6cf5e6cd67ae1f7ccc81e0c679fa8e5c07dad0b0031f3f81788ab7dd8892632dc496e43665b9c2e38253db01158a85f6fba17b032da95ecf714918384e9b120e17cc2227b9ce56d2ef013263a4516319446b64c628f8dd4d7cda8a68f8cfdaf072ffd459bfd2651d95fb9f61a8a371c2bd8947634fa09624e105a1cb4d5176cad7f4b6fb5be743e4824983d0ef31fbfc147c511648ee756f136191c609b9db142f25ee9762c17650d8dae87d6667ca5e0538b8e9b99ace600ac85a60bba33a6fa1a229fdbe25bfdc911ce6744413d00fdb80c48e78c00d53dd6ebb990a5554be1e2999d526f007684c586f1f4d7e150193adc868d166b07619fdaef7c258d48ba179099c5ecd3005d44fcb7cdd6c9cdd9eb5e25284a9ac5045d739d87a2615c9dcf597f748c1d5db4d09f7dd9624932b20288cc3453ed0e06b89c96545976fec00dd82191ca704ad184851708d40f7fe157255bef15cfd60883e8986cdf489d30af47bd44663e305f59c9bd9ecc5c9d35c3f8aa20c427c0eaabc166d2a88d13be331d9badad15b686bca596b326e465f436fc74c27f353243c6218f5b7b2d7291e1b2cf09f178115879e412fb6ab79fd29a3caa986f0db41c2a497cca94ae32cd7c1c29b27a37517c80f00ac01ae53b75edc13c1ce0ca008b84512e38863603d9f0c12d5d28edc952aac90593df07055eda0ec118d69bbb1349f649df67cf4d4344107313aa7963e26f7d4975a314d109f\""
+            ]
+        },
+        {
+            "caption": "define material: PTFE (lossy)",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"0442e01b921cdb95d9aa56f3d271d69ca1b4076e168fdb42c18c4646d966727968b0651de795238df63cc8f7b057da205cc1d2d703067884d5c44527a69ef6bf0e2beb84e0a2588f1c37869c860de6ba5997a42bf759c45efc2648482909f4452b608c8bfffba0abc119b7b2eb7b5da2f8e07a68aad620573f68f8dc1bd52c7e3d355a26e590d91c8f15944490506ed7e0674fc0caf72a915c35bfa8d9ad0c011a7122bb7c85041279ebf9c6f8cd929fb4456b224c58189e8d16a10a63613069abbc430ff2e3ecbeb998edc9e5b9971f1ea480ae6d0d0d5ff8f93ca328ce6af30c0412e14427933ff1ec30e3b5a811d48ec35181e1b5d653c190c355439e0112490173e2949034354c8d55f4f651a7f59579225b036ab0e32dcc23b1222b71af177ed00fa654a4b57d97b7894237b6187434d74809a269e2d624c8156f5cf47be52321248e033923201fb0d32d1645ab5be76d642c837fca0264660a62dd9da258b10f67b1c3c7d5f0b0a18ba128044bce5414b2c806d0578cb6b05ab644a853d81a3e0a77e04aeeeee5754d24b2c1513c5b6651284c0b9af689ec46482ce6eb8320ea5f515d64490b74233c40f9e48de1277a19722e84caf11d41512af4e9d6bc3eb4b8c642e89eb0054118c89353a3a9bf55cd303142295648ac35acd9388889a62753190e1a25877059b7b33226c778e41b309e19d37128581ceeb170a785d396313b14d615421b6fd63861b43477dec336b8139bb2eaefa7501f7b7a96d47576640f107bd6954a40efbf1fe58243a2197c88622c0cff1233d715455c4e5f4649c1e2506e4a24626ef6959e63c06256d6f230272ce2605490f6539c9d5d1fb035c091493e36bb56db16314692c28f57054ebe01286890b7fe6c801d833ecb9bbc1de5415d15c319aa0ee55edb5bce98bbd3d3ed99e03b2612653fb35b51a54157ccab318b41228a6bbd5a85726166a67f72eac7293532922990fe7337358273cd83755edcffb5f2338fbd1d166011fc307cbfcc430d7ed13441f0e3b0d26071efdeb9bd7bbe475bee87e8cab22644888a40ce7b3868908babb884dcc33fc78585e9feca7942a9e31a0d7c0b6a8468b7f8d83b0a121dca91ed078ec4afc9b739695fa99ce2f7ed84d60d324139f598868086861eeae3644bdaf88030dc08d0ea700033c70b22688b007c01fa52c7781f9ecd70e9004bcba9abbce81b3675063cc2df365a461c5d8e06741e189782b240cc50467cdb616cdf23a4ab6f3579cf80ac72744fac9293dc6461406af9830ea3bc5b7d4bbd2648ab4e1cc7749c85584d6aeec5e855fd0a40d8e61ece9c0a50e23a1871957251b0ab687c034036c3b59534ff061f869e879dfd4b975c51e7d40a311a796cf2751c54d92d9a27637ce1ac\""
+            ]
+        },
+        {
+            "caption": "change material: component1:dielectrico to: PTFE (lossy)",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"049ee5adfe0dbf9ca08216f8235a44fb0f9c34a76405773e5076e2808df3b383913e2a26fb6620da95ab563d7ff218fd8835cedf12b5c0691dfc56c9d609311526310474e2c3e556f935409755368a3458\""
+            ]
+        },
+        {
+            "caption": "delete port: port1",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"04dc7c5edf1f1f99e6842b33d6907771b3b36397ed1d5a3a04111560be75a9d168\""
+            ]
+        },
+        {
+            "caption": "clear picks",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"049c6afbb219365f627fb95df4fa8c20b6d08679aee585ea3da06d738b71b60368\""
+            ]
+        },
+        {
+            "caption": "pick edge",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"043a1abf040e8045d2668df1d7af10e26c2529029deb897677c2cf3db8c0f44c56020c3406d2924b29ae989c467099aa5f5d407d935f694640a4790b302888e5df\""
+            ]
+        },
+        {
+            "caption": "pick edge",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"04d1d3f143f903c4f4d3c8107d3d6eac552aa8279d0b7e724004b947605e266d1737638cbb2ef2551b62dfb2284e379636d9417e1dc98e9cd80781891a2a3d164d\""
+            ]
+        },
+        {
+            "caption": "define discrete face port: 1",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"041b0ed380c007c1c50468212d9d0c81a26b381dc6943d3f12c15e9538744d445220980674e7f54e5296888bc7e105bbbf8f6c80f3868fe35107ceb802ae688070e570857a63cd8dfa0eaf024168da6db16c15b90204aeef1997bff54a49550718b15c18a6356c1afa8900d684c5cfde0d83dae55b279253dc99eb6fcbf7ebd5636fdd20869da56777418713e6937870f20d88a6d0de0c2676f1dbe8744848158beca66ab02b0886ef73d53c03b442075da39cb3e87ddf2bf26b0922ca714b23de357559953d1332776c70c6ac2b4db1217d92ce19812f63e97a5084ebfb3c4ad0ec355c5ab8c773a83f81c9f59e2cbe24935581e22a5b5bee06c0551a24bb821c7ff7e701f63af47d0998d08628cf726580f8ed8fbf6a23440c1b9cdbd255f616cf432200256b407a1235fb2592cb71ec9b72f007d364fe360c7709d240727ba96ef469a5eddc4797ad77271b8195112e49d7efe6ef14980869078bea58ab278924c2fa3afed5ac0301c797ea4a829282c0656c66897a168fe4a504a15846550ab520fe8770e16af5ac8c93c3f45ad09c30f55b813ac30e34e8792a018378e5c833d0ce2083060c3ee87b3b1a9f31280e3ad3a212c5a804316640c606f4614e0842d62282da8c56a20c9d99deafc4b84366b2555941a3fee87df4839515c794a7ac12ea1338d90eb6fd6b67b5f356ab53\""
+            ]
+        },
+        {
+            "caption": "define pml specials",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"040b9c82b6092a52e0e68a56ac45332ca6d4a822b8133e713f66520bdc2cb1269aa3e9ffb55c0d4046846acd07680de5dab19424ade651871516ffe1faf49eb7c96c198b9840bfa61c4b359ed9b386bf58a66caa6d990520fa30c48da7ecc798b2e4b2be1fa4fe23d7e6bca6bf79b79c0927d08073ffb63d14419b6132a097a6eb7fa080d016b7aa0f2f62ed49b374395f84241b2a9b48582ee6606662e1cf9a82ca50ef8fbfa5d762aaadcaca71860e0a7286779801767431fd1699b395603821a072178f1c0038117a3e3accc8081cd877ba8fa950d5c065572d61c241346f93612acfd6114bfaef02f140683bdfa5f735cd4acca6c2f824661d6eb350dfd6fffa1a11e5ff214b4b81397fec70f44fef9550a30c19e172fa965aaf5eba72949e\""
+            ]
+        },
+        {
+            "caption": "set 3d mesh adaptation results",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"04415c2b53b160984f88cd42836ed65f164c24528dc267c062107471150a38d7245fa971d74dbe42bf440843b82580a0006ac3480a3d96f37060bab53c80494481ff61cdb58cb29bb43f7785d468ec61c081b126b3f9405ae3e28e8e886e2d791b85e5492b285182328086458b9e95720d81b502815272e2df0dd7143fc9c858c15a1db85355dd2bf9b54917af1c83eb6db3835d2d6b20fd12b726bc9e9a8ce2e2543b5666d041ca1e4571612311254ac30efc3468af89179212c24a962d437905\""
+            ]
+        },
+        {
+            "caption": "farfield plot options",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"04788705e31d728d1b74e2b5ed0949612f80255cfd75714110ec8e4cc33c613c1d72edb1395adb96d25a1d6afcbdc4e4116396845018529fd4b102fe77012ca5f44540e45e9189a32559bedb3539d459ec7d204d41d76e4bcadfcf789f954acd6971503e97927d40a5ab7ca29c48a656098fd2e1a78567db6341ae4938113a639df8dc9e0c85c9a1acc759501fb249a2f8315f75247593d8812979dc39444b0700b099b0d69e0ebc766a247187b7b6021d5f5c208c2703051fefab851ba97400bdf4938da99d4fef201ee1c568c25832e870f106e721fa44b384538501b24f8bb45612f04cc5c30f0647c363ec6a3b1bc8b1e546241469ce3397b88d1d552694369aaa51ee03629adbf6300f8cfba69e2d7585a2ecfdb59d5b982b1107e3e8fe1099cd3764ba1ec310263f47f27109a821ea4ae49b030d0b3332f4695d99728b5961d918cb296e9dc50c83c9e14c81ebab51c537069319ce10ddb25c0bc87c2b673ccd20b05189059436b5fd0ac4715e677b2ff6747dd083545b3ca23c3d409e561c4cf6363bf1919b5b295ca4d4caa6df6462c19cbfdff10c7e399dcf696c40bc24ce2de8aa7fcf085e3fd549acf20afd86e5ec32d2ee21c508728ebbea645ab9ec35c34775d98b89ddf47e961ef06e2d2e71fd2d69f856a07ed7e3d9cd03db15f7aa7289a921af612d304654593ffaf2a2b018d70600f002bf9be9573548c4dc84452dbdb28316e1ee23ccb6aac75823c4741a2090e733b16e4f490d97d19bd5468b9f38b11269ffb46f2970243f44c904b2d254f29035391620e0ca634b7903695c1786a3b179ec85b583de39f0134181c2fd9d613965518d9e1132c5ebae5d1669117b995c0f440f8a16ae810c6d2e22f7d39ec87a6c2568569754682474a28bce39e3b52c709163127b5025deadc07455d05c1264abe8aefa991f66ca864bee0d03fc1b6542f18c9a69414d28ee7542be34a5271de4af674b2e1b081047494a77bfea8b2784c72811614da705537497532fb3df5afe97593a0e959588ceae51330a0f68cab6347fee93235cb2cfac2c409d9ab2cdcfabe7b5fbc17d3d3c8b86cc4f935eac8de98aec4c79518dbe00995cc2f3f00da896e49c521f4c22c2fb70fe399f839d47c0cd75fa61a886e78b604ae6bbd0c66cef7d9da95a98556fed75084d745fcc571fabf8d71258d1f27e6ecbd08937862dde275c80ca806c7a2ba8b9800470896852d60c02dfd14631c85efee4c8ac4b55e6440ab0b49f2f727f5fc4c013e54696698ec8c849e450c05b928620dade77a345f0d088c7eafeca7e7a7c3442dc6ba7aab0c4f06246c912f1c31c43843e6f7f9129a467c0da91a1137638820e2dbd80389b3edb8d097a92fbd86a79f62c1080109f32f85dd73a9be557009528a14c5d6432f1a485cd30a4e77811cfebd39af14d02f64e8fc63f3d83aec93139ea07f2cc4a66c3af8949834a5a532516dec146e5221acf99107a3418589eb15930f596e840547b1a78220a092dd6cda7253674b5ac2c5e3673dbb151a5b3cceec2dbd7153215f70b086262f83dc01580083a03a7cf9774d2dad45c929f1c2360eb59fcf18e95b752b4aa33a297cd2f7ba0780af0f3d9d4aa3035ede04f2ab42d250d2d558be5f2604b7130ae1fc5071759bb65437ed08c607f54cfd010a2cec90ce67b293eca5b46b81f38bda528cddea9df5f63f4d672bed7dab101cb1f6370c2981ce0b376e70ecc52333caf1d48c6269eff831d8dd9f4e808a823710f7976ff2bf8a4d7f039764fd770fe62b29200ba5036ee6ee6f19e995ca5439506eec0f5947402421f39d0575ee0d8e34c7404d633bb74dfd9bb4975f963da6914e8386646f210695cfebd0f367ead8e9154946a991852dc31be5ee9303c0a98ea394cc06657d3a22c103bbf3ecba7e58643215e6832c31856c82605ad314bf0bbb450b85862c7920e64bbdcde68c94e36b573cacfac3c80f406ba9abbf0b49051c58fe686ef63ae71513e84165e7cc80e66c34cba544596910075fef1837f5a2dbceb33d2ed519ab6ea904bab9903bc0be4bf3681131547dcaa3d30fb74cbf7755265a1fd62a33797d339b464fb2524081574b9106791f78e8f001f7351799a80d384efb08f6aaf232d011a268b5468ee721a8e9ffbc7c6bacbc38ca3e41954f6e5efbe0b2674634e8055083e1ac5a140e7479950b220fbb69f0c7eb675596631b381bbdd2c9770ff323a4ae6aa99c8ee2212fafaa0563434a8e42bc728d6267941b4b443ac7d031753511c13fff982b3e5da9ebe360efcec07db03099cb9ae27451fbebc39de2b0cfd9ed3e24b5fc2bc0c0471734a25e2f0e99e0185e3d9d74de59407026222ce189b0d712d16d8f7ca4654df4baf2753d6d49aaec4115112c17121b3e9c226e18d90b8b15e8d17d15c478a7a4396429ef183b156dc04c114dc041755b20b533309d7c2b2d5f860d203fb027bb693ac85a9bd491965181115b91e2d3238b99df4bbeb2b637884c85092bc469c55aafaab8242f5d27a2574dfcda347d63a06aa0d978ff2d3fccf441b041978674e0935a54936b08a4173c44f2612d5154893804282357978e32d3046a4e60e1c4ee5da8709018338c5c2792097392dfbc3c9c3dbc62f73124eff451d81784451b53567f57e83b5fac311da0d2653663f84f91a4f34b4a88b021b042dc61314ef5d84b5142b72666e78f682e2b7f3ad0c9cbaf8214bf19586791c6b0dc93f3ed3450e3acb398cad8e9458fe047404583ab4451333af3064eae4852e3016945c5317d709279a5e445a9bce12935a1717e002bc756101b90800a83d68ae94d793546936aafe971e5a22658faeaf438526d8e7989243431fa9c31f8b9523428a03724a18e9643fa92f3366f5bf21b3d48c62b66c5a06a8b31acc19f96dcaa761d9d885f0505f99e4fb2bc2a0eaa2545739ac8473ef29d74e2f1dabc906019160c426c027ef58da81fd78dcc61963b365e808cba595118371bd5d0953db\""
+            ]
+        },
+        {
+            "caption": "nearfield scan properties",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"04565a1330f8fc3124bad0d07dca8b2c4e21568d349c5da1f9180f085fb6a454fe13a7f1a45616316f02baf2e83650006d9bb31aeee4bf7dae0ffce77a62db95a48d6c6192d160b75fc8cc5587282c3d15463cee8d08d72d304ac0bd06206784a9846356c887fdc98d24ccac8b9188ecf69ec09d6f8aa86d779acfbd0e893cbada413224fa0e65683882bd2ba8371440128500080308e80a3ec1db192d0412120e406132ade54ea55bc68505ba6eb964cf19806a9c6f36bf03005bfde070977a74741ef0cb93219389ea98ba7fb8f04a892dec5f146f65fb5849221330c9dcf5ba3ae2b8fe13bba31205eef742d386b9aa5a4b1992a4dc022d4f71f333d861705ac5fe389840f00206f08b1637c7c0d4f179fdbf07f15b0f6c4dc395828a67e0e68fb7a62b1bd2d699fc939bdf798602d2ad4350fdd1ac07a6de14d6e89ad58c32958f4b6128cc3655c90de86f5af9b708\""
+            ]
+        },
+        {
+            "caption": "farfield plot options",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"046d34ed60d1f779982a0a3cf2511e5fecfea925ee3ea6de8ab695ecd0c3360436bba32d53532249291f57cbef28aa937863f0c72a466169f6cab4564d3beebdddf1c505c7d5b1fdf13bc68becc21578176fd0c96ceab305ab1dc892a8257a94f76e729e27b968b9c554eac573771f9f693bfee205ff5fb7823a50db586bc7dda273ece1be31210bc67ec4e43e09b1715b45b0e3d7a8c0a55cf402687287a9e5b41204c79361d854efef3b2679c12fad65859299525ae6fe2ea3dff3bb9b4c828da632fd614154bf9cb52f0fd4c449474afacff9a4fa8d62d7922dbb9a31565de00ed2c806d9016f9e8e3064a7669443f462a8c4e3d493390dd70dafb9caab6bffec4fc77e2b07b13a965a9c9c40e9c0d3c5e9ccc738f3c8d4ef9738ce5b401ccaba9086e918f22209ace75626310c722fcd5f03d337bb36b7463dae51a97af5527ac590b26e0d042763cfac69f8b79cf62c7f648519ca00203a44c72e8922bff8d7f8882f4d122ff5a6726dd09998c7310f29cd267e4ab990f3117efbf544c9d18013582b412ff09d63f94a842b133bfa99f25eaad6f9d17c9f23993e60d460c875a04c81128dae2f4a269a12c7e82d945cee2e25628b015035534fa265e5de7c921a89ce78f488bb418f7635f4a1d69dc9277d4ada91959aefb46f6e5c13476bd5663bbd4f1d296547dad85cd58c4584a6b21b8f78f5de52800218fae74eb5e14fd3eb8c91e25a0ef67109004a724b075883e1e19a0d9afde5dcda303a46df26f1ecf2e41933cdcc549c1b9b08cc66201cc814e4c03ba9095fb4c6e3a516c7c1d5c41eb6f8b03bbb2a80e0c3bc19638373dba2bd173155f0bad7a519cd9369ccd247014558817bdc3b4a068768dd87542502d832bdb607729d115175fa1d78b811086582a30b848047153354a9a2521b9e77260896e34c810e2d6eede5b1a8480ac46ecf4fe54e09b084976b9e803eca249ec90ff6466154adb3a8aaaccf8cef83680ea95ccce9aab121ea6f8b0bda6c3abac5838bcbd6733447f32365d94e7ff2ee0df9670014b8694544fe49ac69bc1843d85b59cf7cb97d9923f7c0330fb161317f3c1fc84994a30df980bc36a5952f652e98900be3bffdcee9f7477975f5d75fa70abe6f24678014524f88adca5c1f3688c69dc828860e8a7a6fcd2ffe65c7470462b74244a2ddd909bf3f71118ce503c6451e18b2a109f3e55141ccd2c7e4d39573de462ad5efe9ff881a1383f045399c701b16df4b21cbb68530f4d8d58c4aed4bab0b02fb0900de634a13db303e6c90627f7578f0f7f5a38d4e807638f6da3d49bca3bf44f562dac49e0cf49961f67eac055cbde822c06066033ec9dc573cd5ccae17c3265ca22488f2d9dbc5a318d7c2570e51b2aa49eaef08354b8bfb442284db0898f5c75703b1838de16984c3fd2730bf722a83c8423d6d23d93d1b96b26b01755e31e63374e65b5d394c8ab537a880a57257dcfc6247c61c6ee5913cf6d5bd29b8ba4b3efed9c24de6ecad269fa00b6915dff4e9bf4bf8f0e9d59d5789083862baceab5032647932e8fd175605b368dbe23549856f5edd5d7d78845280e6ce8dfa55bf7a8529956e8bbe79ea5cb9772ecf106c13ab76e852214973e5e83b4fdb553bd05dd2400213cbf5df90c786aac291af4ba2b7bbe0d2dbc265966216a52eb1d47793f2354cc565f4d1b8a4757c43eb4cf78f29dc1b03acc1a58740faf8718ee931a3fe69d11bb0fb19258ee631d4a73c004906ae50f21c055050adf7303f7e36eb8c9a3b18d212e4618e658aa4c8831d8d4d6e88fdff9ff4ad438806e2e221bbdc02c29f7fc73f2607ec6342359e1618810fadd3fd4037df4bf0d5cb441c4ca02e27e125f4d6bff923eee4e2a9bb687a2b50582afec3ed4ada6cc94c6216633a7923d1ec7057652007dce961cc2b5567a689520920b33c1186bdbdeb2bbd0a0d818d0fd8a4edcf0596beead3b642a682de2e02cb625563ac2275f2a37eb2fdbd25863aecda18bb94d8aae5c06b69c00423abfca919629f9e412cddd740efa1206cc801b422956df37fa2605bdee2f146b7793d6f4b1623a40166adaaaba34ec7eb2a8fb0fbe4ddb122fe8493034fbfe975b7384bcb772937b1c6d547a47b7d827bd3d732d588677c7f5f44c9ec3415b7fb6c796c4719f553ae9ba0d93e0163905d250a9e7b026951e9d6de83f8779db6a795be64eafc8e1fb2de4f21133c97684a2134e24e116a6496304b2c3bcb9076e64af60592413dca6eb8380076fc6fdbb5bc917e1b109068b543517305e4be1758d36a239c650799e0bb93e83b4a70d89323f7cfbb5c1159468dd12266d6dfe045a492a0c4ab080c77cb7e531b4ccc03bfa788321962c39db6317ec38d3ba058ea7045dbe7898cb9613d9fcb7f8b4c73b2427e60e8cae39f57a3c68555b4614e6e63036aa1da80b6927bd7d12bb466a653b36023053a556b94b4562e4b60ad5b1d8d747bae27286b74f3cfb8ac82c9555e031f3b2c3819937d387488e8c68ca409d1cc1147a1d4209175d3b4a92d735e1de7f4a486a43bd1fc89d1c5cd01e4c612acfd22459a0dca1633b8b70ac246e60393c4a025e50363a2f80da1487536111a0b2a3d6ae09e0705462e168661de75a77dba665d9134742c60de7c86808194a0b73e1dd2aa5bf6d27d7e6f82ef6670831ba13c68b7e6c896bfa1bb80be1a4aa63173dde3f14eccbdf900a69bade9d5519896ab7185a7b7d92c19e5b19932b24ca1457bcd68e0a5c8caa53b730b904bdbc8b74bcc3397bca4177cbe20d2ac4c1c92a65e6c478d2e1a26484f7bd51b5738eaa28ce1adac84b758bef73fb2a07d8c01143bbada4441b0946225c597fec99fda0f3d54f744ad239ba3beb37b722b7c23d39cef8d35e62a005bad19a6da5fd6ca88824b2b806c6d8c1f25ebde5f056bd514a8601805b41036c7e46e57bf956ab4949992a96d4bbcf095a9872c24954a4ae0095e3fa2f0cf51b8cf5d394e2a53a3b0fbc2462d6b\""
+            ]
+        },
+        {
+            "caption": "define frequency range",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"044c8e9cbf10b37a863d88068a5dd542d30529a0a262261901113ed3bf81fb50e30d14f86b2d0803216bb2383e48055a31\""
+            ]
+        },
+        {
+            "caption": "define background",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"04077b879ff71a394c00b28f53e6559f0716ebdc714f3b578d8becb657d055f5a6b42b7ba6e4fcabfee2c232a5644c3d535493c610e1faf53a73a11172757682afdef7a7181712827fd8ad0791a59456295774d42dd7f2b7060889cf0ee08d43feff50cb46d5da4ec40d4cc37a365b98b639afdcf2d4b9e49cc789b2ad1cf5151c8dd1c4e1611c0ca4f5d81dab813298f7bca5a6e3a1a800a5e7ab4138b4348e18cd3571ac3005068e123ae248bfc215254fb7f2fc34279c444269dd9b2fc6e854cf040b522cbb9d2456630d51dbfc4510ba55cab1b47aca6842a152696e1046ca9e5bd959c6fc9ede3524cf904bbe302d155b84be76c4cb95310b60baa92864fd624068f398c0634d5fa4b29169863d0777e046af95c086d3f619b012f4dc349d2f6e0f6f8d25cbe3e31c0fed2802d7803c27258c8181473e4daf030996f41d35ff3e1e0741ce23f37e7c50410c2ddd2c65cf404bd3823fe9de59bb62e021796f33c007a7c519a4871aff6b82816cc28e1ea5753d797fda733c17978180b533d042dcd1e8a9e07e5e36bfeb285a8e4974223e6b092436f71cfd3fe792eb4a5be89da28018cc29d020e4c889c3a6f04aebf3d0e266af8626d37ff0d59c6e65d81e3d470d9887812d3ead1d047360c524a7dd08fb90b2ab15f2b99b612c5069d8f098cf3e8d614c023800c8f8ddfeb9435b971a96e090159ba57a5f17e7ba685f531886f07ebe1cc14cf672568519e73946aecc81934a654852a1d6b67f04ddef4ebb1522003e3d61fc7abdffae02e3e009b4b8fd528905c6783b786bf914c1855e913c37cedc5aada15e67842ae8e762044006bdb8677a0439f07436a26cff126374531a6db8030ab29783860743995243eb532bc961da31827e707e5a5a14449b1b96de048bd7c0990dee9c768b0805231108a28c28af52f8c8ab352495eefd1afd09cec2ee07ad17b8ed10c0f6bd7495a68234df0c2658ece9a02def83cf488a9d2930516345f9c5d1f1f086b05870983cb3e74bcddfa06e946c7e25b22ada3a31b5bdd4f902b21030f9885a7949c31d9afe4f03975aed65199581d1388b80e12160490ca183453db3e25dffcfbbbe20fffeb8be7d60f7bb57069093fdfda3ab0376d1d11444fc74ed34ca9fc06a59d9c33e77afddee6b0c7eb60b5c6fafce1632a537c777d40ba2d80a86ab0d1ad5f5dc2ec9fdb944cc19cc02d9192487310fededca24b8ad7f64060c968fead55da49aecba3353fc97ae4c758a235fb2bfd73c5d1e0fbf3497a96f2f7c6ab2c2a84a9e1a36a9959bd492b5565e6a8693bf41bead9f06651b6fb111d5be69f4547d112b72c760cb4cee17e6e08ab823f109289c24cfa5972e386721cadd96b3e19a2e44ea5812dde982ffbcccfffbf352fbbd0d2efb4cfa3862cf50a322518732375709ff3ad6ade0539f4153df15c673ad60f26dfc243e49d50510b1d565cff7736f63a3f041ecb58e6b638e932adcab543ebf7387fac7d698350e03173305fad19b1c4ff40897a715609b850ac6ad05390da0bde505b3a71ffdb839b9a9baf8cf8286d9335647d2cabe2296551fee77cbd14b0f839260b499e3ab9e2dce00e0959009a6b7d81e6d60df3c9baf944e2c9003ec1ff1c4857ded19d64ab8b477d7ef96bfec4c2678fbe6e39d8a079bf38ee12ca5b9a04986392ea6b4c7ac5d1ea8ccd54d253ebbece78d8db498371f85e8f9b57f314756a38f46bdde78c993a489644f9e408d8c7329d3e94764fd8c7815fe6e37e1f467e2e6875b2b5f5a2c85bdea046c634df750c1d31a018c585b85ec39dbbccb29f96860cb8a01bdcbe0414b947a6351104bae9688ab068942609c0590d1a3cfbc8647bb9927b79ead0d58f2f3f744c26654f90395fad8c09a4a56d9d2fc600e47b90a3ac35fb228c5f1a8603e49e724739145f5bb43782d03d74f1fd32d4a52fdf964415ecd03cf9b4a0f7e5b83943f6ece59c3eb72341c7799345cdade92eb9d8810effd1643eebf6328cdf0d92ac00f1dd0f770097a13d129b534d9b4a8534bed079346e46c6ed0f1a89331424a83933aba5de32fc191a6b56780a4d72e8284b5f3a63fc36359e1f6504a29ce5bafcc8e0761b32cd99a96169103ab3ea72844de855a4f9e3f1bf658749d99db07157672afb3323e55851ed8b640e9146f8cde40c3307bacd3338ec718aef51f9c511877c789713d903e494a21251770c10cb8dbb5a6a358fa505018c2e30ea994ac4f8e6d2a9891da65113adc4abb052468d0d0397d42a49b21af5957a3ad34cc914bb0d6876a2a73a02cbea3fa6ef18620bf8baff65ea9fee78437585cff6d4088a64354b1f95877e62b01b5bc89ab1e471a602a632fdc42ed4074137bcec7ff4524d92b825bd670fab7b00f1f3c88739fbeb3883838ace651a48abdd45b2c1198c0c34ec5df08fa236aea4c49094734adbe457fabd12327426b985aa2c550af7010006bb43a2e8323810660738342fcc4fc9a30acfb9be53d433a559e543a7459d584a2317a67af0fe76cd7b232f35a98661451ac61cb3a6709f635a173969a8137fe2eeb2ec5f17ba92f195b5fbb7e1c701886a25c4acd422ddb2f44d57f4e2542591ee03f993f97ba34df394adde9cbf98f223953d346e011d6695f916939254a815da534193bc491479e9aed89e0dd517c0706ecb522c719c940f6c37a981cc0e332d0febbaa42d5a7cbb564c53ca2efd5ef73224aedcd45541c37442dc2d7e40bb0c39877cc9c881e910795ebd084fe56ec5d58995fa4d1dd7784604bf37f309c08ae8eb777ebc586c8ba2c537c6c83579c9489874f3f8fc60a9afe8d6b3202d30175b5006bbd3c94005e2c4f4eebb65768b0891ebdfc5a20c6cae29efd3ceb710ddd8e241f0e5a337898ff9f2da1c3288389bafc29789ba90308c942635ef11f475478cf7e7bea82490889f641b2b774e4c407abdbb0211dfb5bb5750b0838638e4c35fa41c09ace726e265f3c7bf16cda96c4bfbae85cae3fa5b54eda8a7a679177936dc22a8901a9aebca4cacf87a48baf4bed20c0087af0030f7b2c0b9d1e53618e0812d9af1e07a5795afc715d5192a450dcc3c8dca4df3d92700a03ddef45cbd72f5f05cb58d0e014954ea9de59f7ec08e2a206336d31437912917f7494fb1c9e0f60c3dbba8ecc9ae2\""
+            ]
+        },
+        {
+            "caption": "define pml specials",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"046e74fea3440928f93180a24f46504c59e8faab1c503fecade1a5656dea03974f2d5b07a6245780bf9cfdd920685a0db6b7b09f5476f232006d7b822a7f38789479ac535da27e77cb3396b76b958a07720a1bbe2408740d876aa28480decdf1707ad5a7498dd0f9ac12a3a46a6449a51685e7b9eb47c7700f460ed04777f8711e83a65923f4731e94712072552c4588f65a569eada1b3dc3dcea83170d5c26d61bad2eb60a4bd260f985b173a856ec4c973228b0c590792a101af767238b61b31c439302f6433827fad2d863a02105f28694643550b96bb76f3102e25d17752593cea79c36c74db1306d9657b21711c932120895fec354ca493f73a95ea819d63c9602550eb5390a4954248aec847c8d80ea75f6e453593db2bcefd00a81fdb64\""
+            ]
+        },
+        {
+            "caption": "define frequency range",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"042f2795e1edc417ac5cfb7f31f0b92a2ea6e8fb7fe820d4470372947964c27f564aa89593dd4b7565dafe10036129ba23\""
+            ]
+        },
+        {
+            "caption": "define background",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"0437eb9a485db9d04b83a06ca722955e1a060558a01a6caf3bd793392381c755207a41417776fa6e94627cb7e47000f36a4052e6d33ca9c1bd4a67e98c1db829034b89cffac33b81245688873ad90f86066099f51839a12339619b7aeee45745f821071055a75f7370b81e8c2416bbfd73a15f7b0352454ed4693533f937d7d3122712c9b433ffb25a497f6333b8871ef54dce82a435011f6fadf8d4c3f4f9af75523c3d07a8aedc0b572cacd66c83b499e726e06c947b9c1d71ff524dfc06d463ed2183e8c28b293c6c9ab50cda5e6ecf5c7f2677c4c8d20c21f413f9129afdc4f1dc21f684cb98775364e662d9ba985176652bfff8d669cbfe4a8ccecbc0780a37769134f8bb3672c35832a7ee21105b217bef41c277891dd568bd305c7ce87c0bacd717306aa96e58363feec2726903a2ca68cb778d5fd81ea301f70b01ccef929383ec770f6765c2f05678fdc947bb49fd31bb8c6a063accd6d77c45bccf6c1321b79762c40050c5e288b5d01a8343e2f57306e2b94f4fc3bdd849602e02011d5d9b3efb990ebcde7e59d01adbf5212914435fdbab35bb17b96ede683e54858bf89747a560a51a789d627a04d45ae2caa6d4111fab050fc98bc2c3b4783500489762ab862aa189809682f0eb608dc750e66c21095018958448a2de79bd2dbf0e867d131cdcdd55883b3d4814ce5d19e539fd96ee5906c9598db8047363329cb99c989419f5559b67f4134a7f91057fef9bb766ad16cacf8a50b4dd37ef080b5d9e04cf4d3433ecc0875c32b11b0b1e41850a34445f3c592b30e725c268d1d9d2adc4668288d2034ceb60d4f48edf06faee7279705fea07092b77dd51698bfb37ef4e65b91ac164743be8ac62fe56639b12902deca8d75bf7e2f4ec7a58d91d69f379b19e5703bf810eee8f71db5d1e55761cc788c74290d9887f2809282e8c7359591022685dd4ca4a5daa530282d6741f9fae1c484f337b0c580ab4b5144e1f295375560caf6bba2f216faa2aa72fbf44b84ba4b8861c3703ee958e70e641682c2462fa745d25e8d1a6accf81fd88acb7d7717edf5de119129dd2bdc0303310b9378e02b90122ae8f7deab54911bfea4b11e82ef08f42b0f95a20c942cf41e6ca7e23efc0809da76febaec83712c0e2ee7f4d71d85b0725affe376c1398691d1766d8bd32ffae2a49e6c72332aed8c6f38e3b27ddd1a0be22763ad1b06a42eabd53da30ae65c54f5b4443a020ba0ea73770b88f4e4aa35e142986bc49be6d3efaf5cafa75550a29f83b7f62c61dadd4a84bdeba441acd93f64ed334904be186c19f7694dd2e4b56b595b86a5662dbaebed9ea7400e86c70990511a1e5fad9543b4635a33507faa898d28b5bec7b94ac9d9ad3148034a320dfba3b4b4c8f7981f122e4b682a57c87cd1ac333771ac5a2db162cd054866ed1efbfd5d9bc39f04962d50e722f9718e24ab14914d1f7bca3a9e507019aae0f1b09d484e1d4ef587c33592482eabe34a4192baf237ad8b8336b1a5f4b816cad0a6ca478bb4b1a82a9f74b36d4bee84d8afd80fd026c1eb6fdf7b05c1381138e06bd421431e392394207fb5f9f0b7b9e280606c243ef747f7306b5de00414a34a1f89949256ca6e539c51795f99fc668a5a138dca31b401d0f6e3926c5001758c2306a4adfd63b69882be1c3b491254f4078c34b5ca7ce784560ec52e1409d49286aa3c76af5117f27b244bd73bf564f710d4d9b66f1a134f7f2d556b8bc30ddac0ab08dabd8584bdf01f72d757139059486d953f17807d1caf1e7e0b0f2c8c9d9779141136be85a76f9d8fff283dca5c6c4b48a448f57a98a77267a2fd2589262934faa4597d032ba6a31350879ed23657ef008678708cfdbf2babccfc638c7fb42d9e32ecc0ce8dc5905867089657a8f8db310b3ca85cfe5c4998b6dd49d730290cd8eabdd3ba721cc24de4550c0f69616ccfa3754a2b8f0423ef97de298c7832ef07713a7ff7cb4cf6c964e2190520f42a0a0f56b3bb07549566e958da04af9bd05469dd5f494b6908ad05c0d52a172308600ee3b804fa1b0b732feb66cb21f533d4a7e52eb1d2f07e86a58d5583621ae54ca07abb45d156b30728028f378c1e7bccc2333a258a01027292c2d4ebc08e5bc5aff04774b8cbe701f9f7edaa193735f65effacc4ee42a4cc09d678d4107b38dfdc1e5cf442e93124828019ae1d20c5181320a421999bb1a67dd82bfa79167881a2d93a7ef7dce0d79e5b0c7a2e59daaed1cc495321cf41bb190fbab2f68d5d5dd248ab1e8a293800efc750bfea11aedcac36afc3ba44da80cd265d6e8cbaa91c305736627a0e7216aa4efe9ff7fc1540c59b04ac25f95e3910846bfa4eea302d9638630aec50381be3cd2551a49e990f9d56b0d025e763fc4b9ed45a519f6043fe9a8ab39edbf3500b081e1efc32656eff3d6ad36f956185217fa92660cc04a0783589af54406aa3e3ba4e0293a561af3f7715fec3e3a7de27ae3e346f11fd81fe0fd05a29483fdf143fa3f939f1f86ba42b648eef492e70aec61b1f6ed7ddf0e977b2ed31747315e0979c73aefbe5377a07a773edfd1527b85a5eefb718f457d7eeed06048c614be366781b94d99120d67b387364b02989d975e1040a7f1a7e267abc246cf04b36594963a49336194f0c93cfaaefc4ba7521de5493614d32b790239dc6b1fc15e2ff7f9c4e96580ab2d84658e477c6e24e2e4d2ac48434db345b58d7b04474ba6be1ac66d169776c220287b46f4bee5b70230bf0ac5b324595d80df52788965a40db944b50a4bd796540abb8e495f8e326bb834c4c6a3d7be46416beff5bc98328e3707269538f6bc36e296639d9503791f4e030b222c28fb8ba63e91fea389ee08abfa7b7964d7db7ecff1fe09f7f2ffc9b2e0462f61b0123e94af6b77b429daf189a5c3f5251141087bf1ac804fd2bb246b1b9a7e152bb8ec2604b4a9f5631b315b440b86f55401dcaa34ed95369c51eeec28d141905ed790bcb2cee99b0a3981af1bcc7e0010e6d5ff6033f11164b1698c1bfe9003dc8ea4a11e85a642767f574d38bd8c65d2c2b485442c7577ae4c71c1ce1f4544962ad60d2bee9937f55e2e2a1e0744cfdc50ee69b24c86\""
+            ]
+        },
+        {
+            "caption": "define frequency range",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"040135298467578b4c70690a2b1dd4f6e76e1f4dd62b30eabd1bfa396b2149db0d0a4619860367d99f7f826c3a01c3e37c\""
+            ]
+        },
+        {
+            "caption": "delete port: port1",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"047065680ca8a67a4d7c9f69f8b1c341c5a5bd47a37a23019ed9ef972af4f8678c\""
+            ]
+        },
+        {
+            "caption": "pick face",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"04651eddec386bd9caaa96c67559e8f712653f68a33594c3d892b6d3800184d74badc71b2564449b26b814a8ef1a656882\""
+            ]
+        },
+        {
+            "caption": "define port: 1",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"04901952bac54b9025e8a1b83a5f63d60b27e4092bb656a89018e48c07a724970a3d246236d807b40804f63cee716c113521dc234ec1c9132096817d158261514f1b4529a0a9f924f4bf43db30b2288e9fd5a57f98897fa74aeaaffcfbb7c182e43d92614bd9fea5073d37bd952c2ffa5f3a7ce6adf74b943695f0603556d35a70264ab7d545cce5426cdb0a11220a768c5406e53a84d768058f830ec7a0742e54a983a5f32dacb43da89ef774f3f4e931a2cdffd83f21e9d125f60ff43dee94a448dd1e4c7a13e9ef6b55905cc0061e14758474419dd56feff85e6e4ccffa658187d4077f27cff4517338b9e624f348c25484636fb07ff975902c9e98dac08ebfbc66c3a110ecdb0cc023b3ca03607e917319e952796d2a5abc54d61dcc78a441af74c0654f2cccb9c360b7c9271698c30ce9b5ee35eaa23a64ac5afdebfe706ca69ca4431f249d3132419f37376fb7aa4f29f11163ab9eee5ff7055e731b3eb64a5ec6bfa9f76392816fac6982a759c968934b64f09b1582c2bde5eac5acba31937ebb3416d3ad3d376de401f130ea55987b4e30556ae3b7ecdc557ad832f098016b5919871921b6ff7038be3b0b4179be0c1dd0b906dbb43399a3bdbcac93cf2a64261363fcbab0eaee6ace0b1212ca18499ba97a314f8b65726caf86a34116d7862c902e3157b45b1cdca660e238e60dca31ec23d89fe56d0a29f17d49a7a03b887f0c94f2ba48539ab1b82fbdcef9e73a24b93f3c4c12c63265226d3862ef9e77e2bd3726c9e9b4c7f51c60d08c6275fcfe88471e2b4dce5a108a59cbd86d121e3fa27295784761619d8d2f7d752c6dafba6a020f80d2ee209c08bd19b4061235ab35642a001e96405f2de0c41ece\""
+            ]
+        },
+        {
+            "caption": "clear picks",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"047c96f77f1aa7d0d6987fc653d6cd27e8fbead2e4465df676234c45219648789a\""
+            ]
+        },
+        {
+            "caption": "delete port: port1",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"04e3d418319a4c2f4c8d7c3bc488c19a45a045539b462ab1c5d9866227dad6e283\""
+            ]
+        },
+        {
+            "caption": "pick face",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"04d9b28959ef76487e84e239bed8a8f17b42c70028c66891399027c417207155d32337d32e50f908815d70545cd49569a8\""
+            ]
+        },
+        {
+            "caption": "define port: 1",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"044445f3e1c90384fdfe3409b8e30d4441f67f05caeab08a7287a4396e4d5a811a8aae90d5c32ae5c9eb9e03608912f6faaad302df39d83629003b1feec2402a0247b5936034df396e20ee154d546ad439c24e8f8ef347cc97ec968152297958eeca2bb382199f2db2daa80c19b96ef5362c8bab651d22b6bfa5901629c55206f152e810bad5cf61c356abdde487ecb054ef8102898f83eb463fb35c5b23f8631660b143a37abdf89febd86eb43340eb9829078da032340febadf5a4806931ba12f76f71aceb7b668bd5997848ff9766aa3adb18b33dbc88661b76c41d1ad8b0953d42da4193571b65dbd18a7d65ae64c83b9310014f7393de90c20c5be7f0f7866d7f5dade0259dab18acca29c325ba314dde0804131a92d5800fd8fa5000c5102f9d84404380cb4ea57b813b97b8d43b02cb75dc1f2896b5c2b9f8fcbc3e88176fdfa646184c5e45a5530a7cc6e206df6f52b15e73653d49d9223d4c893cfe5b1ce91a13d68f1d2df877095cce0730217ff7e930de8e5bea5a1f8227612d2c84af50eff75fb9141d2436016c405b16bf28751e6613f115234f76eaf2427de1737d06e2e90b1056f1b0e0fed654ccdbcec3ad39a4f9b2d7a3458332d5d77824786107b2f98198775688b81666497777627ff6b5f24c57b89fffa2df7418cb752871ba84d7f9712537b994f96e0c7e426c683be41720a48ea282697024b79600ca9828a62a3b64701b4d901b6db5dc72237245d12f3cd6bde2b01ddeeccea434fcb05ec4d58f0d73107f5a58c011ae09c712f34f18c34de033b346ac7950ed8553860da7c6155a8e4bd3788b5f8fdcd84e8a41e8842976115f77f62d07789d98f5f3ee35c88d3489f86fa6b5031ab24ccb\""
+            ]
+        },
+        {
+            "caption": "define time domain solver parameters",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"041a3b6c0faf1935998fa2afab230879b5814a0378c0d32e095987d49346d5a31c2d4f0a617299709d754e07e16e61d8bca945d10fae3318e573fb206b47c84f4fe9ccdbcb629a3dc902cb8dd0fae1852525e8a566a88fd2ba4496183e10b66d7c13a444a526057c4a98ab3515c71755ba702ca794d44559ff1d39fc84213d6b0e041a50111317060856ad6969a5f14095af73935e19b831aad733d600bac6386849b0c59d96d47ac6026d02db1253f4e95b8e2ce844c466caacf8458736d010707e724eb6f48ef9f4efc2dc42bae1fcb563fb44c8e42728ad26e87bcf978e9ee093f3aa8ec8f40dfb49c0e9853228c1e5c6c14d88320dc369f3c37787de6821806f4334870155e53b181a5cfbf63041265bc9b980c8ac14e28a8d63aad03f01f33c0d282f7267f2416b21ae54c5a78025ec22c15436fe15149364380e2c3c0e9f71997828157dc815c1223e412e1e6f2aa3795337e7fd7ffb833d4d277ac99c3e7a44e1d2c1ee2f8c057eaf0203448c88a167e42abc1072ac3dca6402ab69ee4ddfaf8d4f54b33d2c18e52d392dcaac3f2100988682688a534cc7d4ce26cb11b03baf772ae6d15460755700bccb7ac28c77f2365789e79316f6fd4bc53b149c663ec3d49d13427f051008a4510bc3187c3e221d4c73f82d53c76e203852114e9e0ebbf223006b20e37e31da4dc58011fd16f854a6d61020bf8ebcf7428f22e3483c20f78fccd45eb842b7cdf207ceb2f0\""
+            ]
+        },
+        {
+            "caption": "define boundaries",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"04e9064bb392253559b23caf0e92f0b1bf4c94e5b116cc40017e982408154cb5510255f79e7c7162ebe081d3051abd46c792c83fe3d54364e367fea7fa31bdbb87088f44f3ec41ad69a1bc727d9bbfe2ac9e279d35fa3ecab252969cfd566b6416ef86609adb1a24d83489564b784a115fe318eed31d5cfd265259ac44e24cd77f2e4c5cc84267449fe36e3d1d27e6e50751c82c133bc7cdb60ecd6ea1fe7ef85c61012c1cffc96dfb80bba087644a8fbc513d2965e5f433ff1e26110aba40d822e61aff402cd776a224515a0a7efa2dd296e9af1e75bf9cc1be81fb0dfee63fe65b8777a6b3902d4547c4dadb29c6860d\""
+            ]
+        },
+        {
+            "caption": "clear picks",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"04ba0757ad145ffb108a865cc0fadcdff531ef5117cc68a7031bd22b4d67ff96b7\""
+            ]
+        },
+        {
+            "caption": "delete port: port1",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"046f61cf30902245147ce1916b50d4d81521596d66a4f12c7fa6f55f16662be60e\""
+            ]
+        },
+        {
+            "caption": "clear picks",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"049a24a53960265678e38abb2854a8b69c0bf28f0d68e8f8a7238046948a3f4296\""
+            ]
+        },
+        {
+            "caption": "pick edge",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"04312a68c15e1e6999d9c2db320664c2b5fa668f390b7a3560c0a4153f1825284fcab4789bc006a8fe407549a0175038cc589054ad525a2019620d24d8a14f0fc5\""
+            ]
+        },
+        {
+            "caption": "pick edge",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"045bc7c0a1ff754460eb3678d89224cc5e5b444a0f92d7ff6d54c6a25c5a0cb3316562c040732566821a6a0adc891d0a1aa8f815a7202657e3c214c91a626c7cfc\""
+            ]
+        },
+        {
+            "caption": "define discrete face port: 1",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"049e2d3318798e3e95a9ba2b1253fe7e0a87f34c197f0b848a575068a15b4e34a3de86b7221719c2e5674a45242ec9aca91131b3e86ab50e2ff24c2634aa32cc70a97a9be2cc3444b5d851985e1d1391cbef26f01ba9cace6b5e5229d100cf89c620c3e230f96e78af79ea8d0b2eaec0c940a0c271a8ccf8c8bafde22d14b58c23166631808e6fd71a7e9a165dc06084471708ffc6973bb093c231bd47af08239070166a4427525e297f896ab682a6fd05edb22f090d734c25679541f42a7563a3fbf46226876c4b9fc2e5347acbb40b65b8934708e0c8a0cdbbb105bf574598058042a9c5348e68ba0d7b0b2c2be325677a9bfa068bdee6fc1c8b3f1814c350efcc8a9d1b00b694e788b119aa202282523252e8f6c9b7c39c493c7e0eadba1da7adc5d115f0d171a529e2722d74377d502fd7273814e800c999f8c093eaf445a836588a4279b991c74dd1b178e060292bad8bb2e9c8ed5afe0b16f44a9ec47b742ca34a1f61e5c983cf271621d6d302112d2d52fd4ec91244bbb8b2677e3c35f159435f7418f8f9e4c56a91096568fb2fde5cbd8769394fe499bbbcb11333777cb88ee99bb020873d913968a85c023e06ac1eae1b861be1fe287df3bfc121b179c49d1f85068ffe19dff7819f395956117cae8957d930e5f4676905108c94ddca56d3acd322c72d625d2c6678e0182e7b\""
+            ]
+        },
+        {
+            "caption": "define frequency range",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"040135298467578b4c70690a2b1dd4f6e76e1f4dd62b30eabd1bfa396b2149db0d0a4619860367d99f7f826c3a01c3e37c\""
+            ]
+        },
+        {
+            "caption": "define pml specials",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"04b85c237a40ede1452664d9084208294df85614220ef4f54cc6704403234a69c52bccd35fcbe232375435f5a94559fe2eaf9f3c88bed068ccdf762b5d0bccd30a7bb6319ddbf89178ea4c2f7298c85b4ac4aa2d2bb6ead268af73f0a32a449f2ffc4cb7f705088c6c25a852fdb304a72a165bb417b45d3861aa80eb03e6ae7ce3a5d0c683e8bb09b594b78abbff873d51c54283e19f392df221aa977da82711c2271573556dcd06e1d02b7843ea33852543318950b69445096dfc34530eccb77b5d290bdd3bedf2b55870fa52c7caa17dbb7ebc22b2446f3c82ed524aa3b14653ce4da1919e22af58755a00ede36f5ede0ddf1caabf8d6aa7d694e78c984966ddc9640122beb360adce7d6f80685a80b6ec088a34942ab7e89a10b7589bbd0c53\""
+            ]
+        },
+        {
+            "caption": "define boundaries",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"0435cb0efa6ffb70f8b7a5c4bf52d33ca8658ecff50fe65ee8302c27a857ddc08d3c4a4fab812573dd4397f8c64dda3e1f5a34a316a4ed15bf41835adefbdbb4a5f5588e110f5eeb9d33cac448d61e942d1ea05ce6918adeceac0381fe35114b9dcf2206a9beedd1ed42d17ac870900da8f63818c6c82a077b4e1841b36a05283aa52cc042728af2fdea91eaa586f73cbd83608dffa7b20a4887da783b8eb38331106ce30e9a274d1dc632d0b81ace0a83c9a9e32a43938ac4e5ded6b9fd864a02d1e01dcf8450043c0cbe72339df32513017b3908cb982219cda05c2aac2db846581b6ecb1c6607cf1df0472648648d367321adad28dd32215493dd30546244137e1e0145e2c70d1eac9e95a398d43e0ec6c13e93cc69303f4b4472cb7a8620ebbf48e42dd87b2beab918fcf9fdb282586beca6d4f8eb5a860862f88323fa96f308af96844b7511d3e0f5ce7584be8a5f\""
+            ]
+        },
+        {
+            "caption": "define frequency range",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"0493a624728f1334ee478d52b6f3c1c8b21c38c647a5ece0f793c07e093e603de7105725dec9d40e0082880fdffbf74b9d\""
+            ]
+        },
+        {
+            "caption": "define farfield monitor: farfield (f=2500)",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"0451943761d66858b1159b46a3e2bcf8bae17ef78a129d6818dcfa842b45172cde91c0bac844cd2c90e25dfb6db17357a8d5ef6450c6f20fae6c865ed6af0bc8127d7b16abac65baae9999e31ac752cbc32e891ff5b1b63c9f3e850ac1879dffc60a2e6d831090694b037b3f9c6b4534d10438b54161a8590a07774ca2505e781755da7eaacf54f918e953b41a66e02bc25847de9adb69505cf658f866704d833f891732a54773cde4637e56e8a9340338e7ff974df3952413ce395bbd0480a25d7c1965e81b24ed78c9239e262eea8a7f294d8edc366b41cf99e5d013905a15eee6458d316d4206a7420e00eb50c2fcf5bade1f2831bbc0a4637b2530a28af71bb65958d24363a00108899189d40af453f138997c85016f71c41296166881139cf09da8a5331f3626058f41b94d21575cd30f3d4a326504811ffcf8fc2ae9cbc873de85e83866b26300f204667815313966ed37d9d84abd5474df4a1eff0c51ae4e7b3a79364e9db3c784619780ce661a9324a743f865a75c384bd9c6452698852f5065a4c897a03e10979112add6bd199bc4e906fbdac8179da00487e36a616126812e5eb4f938f41518a4be4efea144a6ba2b4f3248128ff5177f52180c903cb01bcdc8ef41704e230e188ac1c92a7cc3f1b3f36633f40a88fb3cd4ccfb078a48fac2883c25ffa57bc099e84e9c2b1a57bdbaee1c45838408777f65bd14f2cbb21c21a7de3184e87587a675e7cf7c52828ee254d2648a774eb22e334c3a8674\""
+            ]
+        },
+        {
+            "caption": "delete monitor: farfield (f=2500)",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"046f885eb0eaddb4ca0862266f8a30d18bd9cd99055babd106201ec7c77557003c67451729c173d18d73939b9ae9d2ff60\""
+            ]
+        },
+        {
+            "caption": "farfield plot options",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"04868389361c8441937eee778aa837601f3329d91d99d324975f0ffc89a240c9b221e4d7d5e15e42493ca8ec38d11ae34a3d5b157492ee4d2314e1be82f1b1620d71f2326e4ec988f8be093889ddf2a6c9a9ef40fd2712d7427420913e1e4e7b48d82f03726550ea38312c258b62676af4c921f2722bd8f47fff652783cc94270f817b70e7de25ad5e4b98553184a4bb73c8b9dcfd74ce67651c2b56ee344b4d3501f2266042735042989c1067c2cd2bb85faa965010fabae6425ef5acf15d103d6a00c358648308cd6a8afb213b51e27b73de545f9378eb8de78b156f1efe39531b62a6551686ded6bf77c2e5ef9047c989c67604827b92e96fbc11eaf032d2f6e026c6ff46d2f2de2a524cba51b855c21e2b0d9ac0091b3ba71033b374d0653b4f36120ac4d5b2505420ccd20d184f31a4e9b7ce1e9473e7da9621c0f4b45b9684dc99414b83dfac3a6c011ce1c65a0069217453a1a069d0ad3122eb60acc3122b1edece8ed681e1cf58cdd9f7e84e5d7bdf63b1cf1faf21be98365e7f9a7c5dc42cf4a4ab557087ea7c8424d0ccd46043edd26c5c102c1106c289a0c78a6a8bf3ae8ac923758e9f073280908503617633772cf445b26d8270fe80f746b697d35b7b53d37f60f6b31a2314660932f4d582cdfcf921ac9c7d888dc8883f1905c69f82c29e183f635ef4d997fc7110ecc737c1f4165bc06b67365de67141d591bc1b9bbc6bb952c96ce6cadfaa630ee8d0d7782c928667ffa6fa658b8d939a8514201060278267858f3dd5c0b4e4337dbf0d2cddcb5eb7f1efc67e2c74017bedcccd9a84735d9b70e51067232b28c8aad42d5960d0fe5d4811c948e3190850cd6f5d7bd1370a0c0ecbd4c64b5aeec92e6c73bc39b6d1d8ffbfb528fc48c4931438a23db2720afd5baa7f8670ead1a871393558f8aa80f5e20307be04abaa35f1249074931689fca5938ad0233c2d8502a126e1026a4678a24c744f93c88e4b0858b3100e5ad45e8bd7447e1069c81af2aef231851d4f43e7836acfd0a856fc37840bdf51806afcd7aecf29439496e78cde1d335bde64e343d5fa38d68c332c2992b43bee72af1c53c0b87632653f29bc19cd8304366e0ec9910616364be5c0db7ad34b02c9bc7f55de34787be95c87ea9615f820f4369693989929014c7ca9f338db24165e6e389082989dbfa8be98e7eaf910282a267ba118b6c9192b11b9a1402a2101c4d1602558bef12bd3d196434801b3d1a9b1c44e952b703e4a27ab9a626d8f9fe0eadb6b51ccada0135cd6fe850de96410e8aab60a03a24ccb7ff43bef89dd076d9a5792871cb1aab44df4fe0f30491d3db9f0271bdeefbd55d86e0310329495c7b397514098d1fbd1d160f704232b3e5396a39e2753d9995cb65fff9f62ea216a7cf3b6136dbc392b95244d76044e78e05ed9d2497c332f00a5e456ddaa5349cc3ef04ecf21745999be17ea4f9028b816331f93aa1e99fa941193de67c1e18b26e8ed9a5c2bfeaef8c4191c300c9426c3cb51df6d396df2016fce0490ddf226e245082865aa22d0fde16e7d4a0cbcbcd6b32c764439608bdb3c684e8fc379e2c2eed680ed857a6198ccab3b4c9da8f0f3d88b107effee510b84252163fbe1ab6e74bf092585eb7ee97c5791f83262e88f9275b46c48c59aa44f10edebc23928b57e153193ee458f38b8af193468281bb31fface6529db5bc57945215d7573144d01052ec37249e65fd98ac4debd1143553fc91e0fb0ba136a5c1f9ee547ae8340c61bd399622c036f102b8f94b8e99d8c8a33f166e3c9bbb840b10663a05d5a7ed472a994b2d5926cc97c06174d0059b5eb36ddd86cc5f900e080e0068765f1ff7c555f4720bae88031202d6b8cecc620dc0d5ed17fe1b27527b45737f8bdc24a2177c5111ab5367ec6d9be99d9d3033439262dce97f9309c25f712086b7ac50313a81ba494e2ed4d9cdcb61871bc9c2163db5dd67ad63f60ab3afd16d7d59f075fbfdd702eb95afbd2fb03aa8cdf1c8bb80e3aaa9fdbb3b09832faa56c803834d2679f43ec0e979729db74671a2a4251569ceb3bbcdbb95d3d73536e7307a4043797965c34f53bbbdd193ddbd190765ccb5188d56ee36e3090732fd42343abecf9560e7b10acb7ee3b79313b28829e7fd51a69ad2d328924a9256a918b5602a96d3b78e3d72f13a7632a5820a7abc9342f7801ffabf4e78dbbdb8655d8d638723ed4da4dcbe2cff0044aac92a83e72d2107c2a713760d8540bbb74cb219f5cf2031a2d29d9096753c65cbf03d80c05ed67da91a6ab3ef35bdd8f0f3dce2bf7847951c93bba0bf1f8db4c77e3090df9dfc81014e633d106863237e15f365e984bf98b40607a6b643c0a982a135126b90345658584fc7fe33726e5e77995a78a90b24ea6a1ce29a3484bfbc4cf62bfed373a6b1819ecca1a58feb1cb267b235c725abe15afab34ac435817059fad3bee4c9e77235939c9e5d941ec253961b58590474c346a9abe9bd9a71df5ec9ee65caa22c92d62191a6a45a3ab321a13a98267bd25ff0c7c802a88b8fed1984829636bd622c5bd05b9ef8f2408516d5ef33a742a09928a5acd0ccb2e298fc04e690c65ee394493aa885b4eb2a9cb97fc4acbedc78d3dceb2a09d8ce5ec850468bf8beeb55ba71ccbb897c97857942afa79efc5872387b901d1c18045b1c5e1af3a4d0075e8b67ed557af5f730cf58f83ed6e0c4dc449dae466d05208b5934abcb1366f41792b1f9ad9a69dc3286fbc866250254ce1721d0b731a1736962b6f354c5f27c1f44d8a6ebbc218a9985bdd24b8c74cf1e874c1861241dfc72c60d588d07abb86bc90c0035a91a819be09ec8121f8b0d44a3ae8bbdb9b6074558c1dd913bff623d0408d4018d3c6f239bc8592a53208f5ef37ade1fdc2b52259f61cdafe3963cecddc4a4e8ba3d0293cc830aa87ac9820727484b7814e302d1fee94a885519a7d8e1d44530c3e5355b267d8d1f1fca8791b7773d01c841f1b985d1afbdcb00ea6f21c14eac6e6f86ddd727b\""
+            ]
+        },
+        {
+            "caption": "delete port: port1",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"0416148ae80d423715252e5b718ab62110ebb73027d4ccfa38e7739838e28279f2\""
+            ]
+        },
+        {
+            "caption": "pick edge",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"0426638743699d586ad73a97a87a0bcd76d4625309b082a50516df312dc445aa4b93d9203450eb2bd6c8151f005998dc64ff656bdfb2676a39263c091c4d7074ca\""
+            ]
+        },
+        {
+            "caption": "pick edge",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"04253a59764f5f35e81de0b642a462ee4a53fb8edd157e78e078387b9604dcce0bf40634444caf9446adb078bfcb42b6dffead37783f2a97a749f9348915240f05\""
+            ]
+        },
+        {
+            "caption": "define discrete face port: 1",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"04b39e3885c27adb25aec8f026259192c2e26580065f6fad989af0ea18ed155d7c6d5ce1f4a8a347d437d6952f8ab0cbd2856f423763d9b2dea04de3cc4b6c234fd7eeaec8d8ea1a0233908cce018b9a9030ef240cc39e97af33458197d4c0147980df35e59b4f9b58048b8c345438276086037311d37066554e3a9ebc51c25c3bc1b15f22c633b6d4fc00c294717b1ec00525bf47663f6ddc35922faf163524b79c185de838a9f8138b1a67da11b8ac12594d4c14c16782a57e0e081ff4146d209a56e9ee53f917c8fe26134da7da8fb0ab08de4d24d5a5ec40c9b14d2e2ef828239ed1600ee0050f468f7ef9660bf55bc456a40d61b5feb27aed8740811390064a060a5bdde4e8b4fcdb958510d1e04a76aa9d0375243ab45d039b80e10a6a6877ba9afffb8774d3f79afa8419e8f8b7240e3eac3fe0591fb32ef304a4e279a9225681fe8f123253a9aeea7ce214cce2031eeda04478420eee07da0590d3040913ec8eaa4f36108ad92dab39eb54a50d8a465d763e69be2e3476de001ee3159ca87c9609d117072b40c6365e86f0e6d0ea30f8e472aab78b3486ec070c553f4500dcfa7f84f78d8d277866697ccf31fd9d71294665f94753e980cbc32d474fd783bdafa9202ad9a292af8109f48e89f76753ae75d7646d3866c3cbc81f6d54841911a5fe9def329b73aae13179665aa2\""
+            ]
+        },
+        {
+            "caption": "set 3d mesh adaptation properties",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"04048660c0b3913ed7354c1d8f7778c401c59b6ee20e68ad0d41be36440baa081b0585084bcd3151216401632937c877876790dd41454431590cc71b17e54a4048dc84234d225072e99326ac41408886e3bfaebdb7f8bfeb0a7e5af0291da51e6d1f64574bb4eed71ab564a5797743c1d2afb784595346fe52807e3cabda4337a56d69975641e42015dcd22401e08ed5493e683bc83ad71307bf7cc1c21eeaec7df5595b0251262e3e02886ab2d39581f71e74c688bde98e42f3fa7de3e9ec5360496c1f3e09dd6ce98031d4b65cf1372b229f662dfd640f028ab2ba81a157e5c6d76229de893baf8e91df5fb2fd790d71775ea2794ea1a2109f1a63eecb274b07746e13bbe8faa55356b3086434c5053668861ea6a8666e35662e46bedf8f030030be7c444a8de1a393acbb5070bb801befeaca000d74076ae733ab1a19638f5d\""
+            ]
+        },
+        {
+            "caption": "define time domain solver parameters",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"0449a614062700943f8f0f960b0e1d46349bbe89db825075c93c812de0a30e2ef5c198ad18ecd746b0537f72e0811028da788f76da6880c6af6459f07f958465fdfa16b853844bf983cde797070a4d4e3130d7c1f8565dd495c0cd96b2999fd0e051f2fe9473a068752b7905f439a1961583805a6878f9d000f66aeb408782a2ff7dce76216da81d361fc9abc8f49a9c7445a644db7f22ea7b1668220e8d18c9e3c8acc98baa8930d7cdf4f19196a00c7a815b73b9099b49ba1e57f48d7e9d87d839f11d28765b3a8fab667d40cae43e7c1bc622b1d8ac61a7101d8b42933210dc9631d75facebaa3862699ba5873a2340c28f313d0c071d65c62c132344f25ebaf1c45ff30fea192fc4242e12a20ac3a663b984082c56190cd1131a0ff8e22c4d78ed45b6082680e297fea3ef57a117d133180d034e8277a6a68cb2ef4b5e8a44e5dc1b9a92872953709b86dd3f105e18c44a8b54901377f47137f880f87e37e64ca7e0b342a0fc5f58abeb09594b3b773de432441fda7d5ade51e54f51a64688fea6c539a6cfaaafe59755177032630534ba6c9bd84ed1db0bf054977e4dcd7ebccdafd9e6424299f9cfc3c9025e4d3b9537396081146fce2aaaab6b3e2f9a02e719fa66b99e8220f8c9929e36721b19b47d9dec092c3c97fa0678352b1cd5ff5d5470caa6c994be56d55222fc196b402e6d35b77ddc9026c9f0a7c2a19c148fd6e7e842822ebdfada64fe2561c9b62d\""
+            ]
+        },
+        {
+            "caption": "set 3d mesh adaptation results",
+            "version": "2024.4|33.0.1|20240430",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+                "Scrambled \"040ec16253a233b6f068052a619610f566c2e4eadc4a72fb97aa815bad69ad0168a0ea5439ae4e981bf1c8560ec17e0b5fda83f99ff4799a4533ca1a8106f8e63c15ea16eec697a2308115b203f65489d7e0b0fd8962653cf3445e349d9ab2b55edeeff0381cbbf0c8717c411ca925a3a7b67708a955472fd7f8c0c60105c55278048f95a30999b09dae144cf2c2d66cadf3257f0605a1d09373322bfa97ce948c56c4c16664b1e25a952f3bfa6b3d3173c22ececab1455bf3365af6f1271b309e\""
+            ]
+        }
+    ]
+}

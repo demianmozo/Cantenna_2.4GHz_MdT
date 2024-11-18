@@ -1,0 +1,20 @@
+----------------------------------------------------------------------
+Mesh Adaptation Pass: 1
+----------------------------------------------------------------------
+Boundary conditions: 
+
+  YZsymmetry: none
+  XZsymmetry: none
+  XYsymmetry: none
+
+  Xmin: expanded open, 4 Layer, depth 22.8958 mm
+  Xmax: expanded open, 4 Layer, depth 23.6178 mm
+
+  Ymin: expanded open, 4 Layer, depth 23.606 mm
+  Ymax: expanded open, 4 Layer, depth 23.606 mm
+
+  Zmin: expanded open, 4 Layer, depth 22.9013 mm
+  Zmax: expanded open, 4 Layer, depth 22.9013 mm
+
+  PML-Type: Convolution PML
+----------------------------------------------------------------------
