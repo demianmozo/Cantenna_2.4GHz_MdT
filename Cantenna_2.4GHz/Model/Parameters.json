@@ -21,19 +21,19 @@
             "value": "30.6122448979593"
         },
         {
-            "expr": "83",
+            "expr": "95",
             "name": "D",
-            "value": "83"
+            "value": "95"
         },
         {
-            "expr": "315",
+            "expr": "335",
             "name": "L",
-            "value": "315"
+            "value": "335"
         },
         {
-            "expr": "62.1",
+            "expr": "61.2",
             "name": "y",
-            "value": "62.1"
+            "value": "61.2"
         }
     ],
     "version": 1
