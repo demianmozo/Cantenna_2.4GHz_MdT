@@ -16,9 +16,9 @@
             "value": "0.5"
         },
         {
-            "expr": "lmbda/4",
+            "expr": "31",
             "name": "h_monopolo",
-            "value": "30.6122448979593"
+            "value": "31"
         },
         {
             "expr": "95",

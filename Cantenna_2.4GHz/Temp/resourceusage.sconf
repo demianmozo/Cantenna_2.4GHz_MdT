@@ -33,12 +33,12 @@ matrixcalc-xcfd-probes/MaxResidentSizeMiB:int:298
 matrixcalc-xcfd-probes/Runtime:double:0.00201106
 matrixcalc/MaxResidentSizeMiB:int:309
 paracontrol/MaxResidentSizeMiB:int:38
-solver_hf_td/InitialFreePhysicalInMB:int:2642
-solver_hf_td/MaxResidentSizeInMB:int:125
+solver_hf_td/InitialFreePhysicalInMB:int:2795
+solver_hf_td/MaxResidentSizeInMB:int:126
 solver_hf_td/MaxResidentSizeMiB:int:117
-solver_hf_td/MinFreePhysicalInMB:int:2322
-solver_pp/InitialFreePhysicalInMB:int:2806
+solver_hf_td/MinFreePhysicalInMB:int:2497
+solver_pp/InitialFreePhysicalInMB:int:2763
 solver_pp/MaxResidentSizeInMB:int:52
 solver_pp/MaxResidentSizeMiB:int:23
-solver_pp/MinFreePhysicalInMB:int:2798
+solver_pp/MinFreePhysicalInMB:int:2752
 ---

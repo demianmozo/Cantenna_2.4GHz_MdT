@@ -15,6 +15,11 @@
          "value": 0.5
       },
       {
+         "name": "h_monopolo",
+         "type": "float",
+         "value": 31.0
+      },
+      {
          "name": "D",
          "type": "float",
          "value": 95.0

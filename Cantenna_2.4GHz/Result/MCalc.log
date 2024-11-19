@@ -3,7 +3,7 @@ Frontend-Node:  ======================
                 ======================
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-Tue Tue Nov 19 20:09:41 2024
+Tue Tue Nov 19 20:30:17 2024
 started: parallelization control
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
@@ -66,7 +66,7 @@ Hex mesh: global: [hxr o(0 | 0 | 0) s(41 | 39 | 66) np (no TSTs): 105534]
 ==========================================================================
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-Tue Tue Nov 19 20:09:41 2024
+Tue Tue Nov 19 20:30:17 2024
 started: processing CAD model
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
@@ -78,7 +78,7 @@ Version: 2024.4 Release from 2024-04-30 (change 1266454)
 PBA version 2024043024
 Sub-Workflow: Facets-QQ-GEX
 Workflow updated: -
-Tue Tue Nov 19 20:09:41 2024
+Tue Tue Nov 19 20:30:17 2024
 ========================================================================
 
 ===========================================
@@ -86,18 +86,18 @@ Finished CAD processing (for field results)
 ===========================================
 
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-Tue Tue Nov 19 20:09:42 2024
+Tue Tue Nov 19 20:30:18 2024
 Resource usage for processing CAD model:
-	Runtime                 00:00:00.00845
+	Runtime                 00:00:00.00824
 	Peak Memory Usage:               37 MB
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-Tue Tue Nov 19 20:09:42 2024
+Tue Tue Nov 19 20:30:18 2024
 started: processing CAD model
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
->2024-10-19 20:09:42.00224< matrixcalc_AMD64 @ DemianPC:  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+>2024-10-19 20:30:18.00543< matrixcalc_AMD64 @ DemianPC:  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
                                                           current system memory usage reached 60%
                                                           !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -109,7 +109,7 @@ Version: 2024.4 Release from 2024-04-30 (change 1266454)
 PBA version 2024043024
 Sub-Workflow: Facets-QQ-GEX
 Workflow updated: -
-Tue Tue Nov 19 20:09:42 2024
+Tue Tue Nov 19 20:30:18 2024
 ========================================================================
 
 ----------------------------------------------
@@ -217,9 +217,9 @@ Finished CAD processing
 =======================
 
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-Tue Tue Nov 19 20:09:42 2024
+Tue Tue Nov 19 20:30:18 2024
 Resource usage for processing CAD model:
-	Runtime                 00:00:00.00321
+	Runtime                 00:00:00.00349
 	Peak Memory Usage:               37 MB
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
@@ -255,26 +255,26 @@ Currently running jobs: 0
 Waiting jobs: 4
 Concurrency for section: 4/4
 Memory physically installed: 6.43688 GB
-Memory currently available: 2.56348 GB
-Memory already used: 3.8734 GB
+Memory currently available: 2.7202 GB
+Memory already used: 3.71668 GB
 Matrix calculation @ 1xN-Node 0000
 	Mesh coverage: 2508000.00 %
-	Estimated peak memory usage per node: 100 MB, tightness: 3.91 %
+	Estimated peak memory usage per node: 100 MB, tightness: 3.69 %
 	GPU acceleration: off
 	Processor group: 0
 Matrix calculation @ 1xN-Node 0001
 	Mesh coverage: 2633400.00 %
-	Estimated peak memory usage per node: 98 MB, tightness: 3.81 %
+	Estimated peak memory usage per node: 98 MB, tightness: 3.59 %
 	GPU acceleration: off
 	Processor group: 0
 Matrix calculation @ 1xN-Node 0002
 	Mesh coverage: 2508000.00 %
-	Estimated peak memory usage per node: 89 MB, tightness: 3.48 %
+	Estimated peak memory usage per node: 89 MB, tightness: 3.28 %
 	GPU acceleration: off
 	Processor group: 0
 Matrix calculation @ 1xN-Node 0003
 	Mesh coverage: 2633400.00 %
-	Estimated peak memory usage per node: 87 MB, tightness: 3.40 %
+	Estimated peak memory usage per node: 87 MB, tightness: 3.20 %
 	GPU acceleration: off
 	Processor group: 0
 Node distribution on 1 processor group: 4
@@ -282,13 +282,13 @@ Node distribution on 1 processor group: 4
 
 ------------------------------------
 Mesh: # of points excl. TSTs: 105534
-      # of points incl. TSTs: 128798
+      # of points incl. TSTs: 129938
 ------------------------------------
 
 ===========================================
 Data rearrangement statistics:
 Disk IO directories:	00:00:00.0000
-Disk IO node domain files:	00:00:01.0392
+Disk IO node domain files:	00:00:01.0428
 Disk IO FI domain files:	00:00:00.0000
 Disk IO meta information:	00:00:00.0007
 Sequential merge (TST):	00:00:00.0000
@@ -377,14 +377,14 @@ Sequential merge (TST):	00:00:00.0000
 
 1xN000:  -----------------------------------------------------
          Memory status on node "1xN000" for matrix calculation
-         	Estimated memory consumption: 0.100335 GB
+         	Estimated memory consumption: 0.100288 GB
          	Physical memory installed: 6.43688 GB
-         	Available physical memory: 2.52523 GB
-         	Available relative memory: 39.2307 %
+         	Available physical memory: 2.67548 GB
+         	Available relative memory: 41.5649 %
          -----------------------------------------------------
 
 1xN000:  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-         Tue Tue Nov 19 20:09:43 2024
+         Tue Tue Nov 19 20:30:19 2024
          started: calculating matrix coefficients per node
          >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
@@ -396,7 +396,7 @@ Sequential merge (TST):	00:00:00.0000
          PBA version 2024043024
          Sub-Workflow: FARM-1xN-TST2-Node
          Workflow updated: -
-         Tue Tue Nov 19 20:09:43 2024
+         Tue Tue Nov 19 20:30:19 2024
          ============================================================
 
 1xN000:  ----------------------------------------------
@@ -414,10 +414,6 @@ Sequential merge (TST):	00:00:00.0000
 1xN000:
 
 
-
->2024-10-19 20:09:47.00294< matrixcalc_AMD64 @ DemianPC: 1xN000:  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-                                                                  current system memory usage reached 65%
-                                                                  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 1xN000:  ----------------------
          Acceleration mode: CPU
@@ -444,9 +440,9 @@ Sequential merge (TST):	00:00:00.0000
 
 1xN000:  ----------------------------
          TST Statistics:
-         E Split (868 | 992 | 0)
-         E Adapt (1626 | 1510 | 1370)
-         B Split (1000 | 868 | 2480)
+         E Split (992 | 1116 | 0)
+         E Adapt (1628 | 1512 | 1556)
+         B Split (1124 | 992 | 2604)
          B Adapt (0 | 0 | 0)
          ----------------------------
 
@@ -485,11 +481,11 @@ Sequential merge (TST):	00:00:00.0000
          =================================
 
 1xN000:  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-         Tue Tue Nov 19 20:10:00 2024
+         Tue Tue Nov 19 20:30:37 2024
          Resource usage for calculating matrix coefficients per node:
-         	Runtime                          00:00:17.00287
+         	Runtime                          00:00:17.00658
          	Peak Memory Estimation:                  100 MB
-         	Peak Memory Usage:                        84 MB
+         	Peak Memory Usage:                        86 MB
          <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 
@@ -577,14 +573,14 @@ Sequential merge (TST):	00:00:00.0000
 
 1xN001:  -----------------------------------------------------
          Memory status on node "1xN001" for matrix calculation
-         	Estimated memory consumption: 0.0976996 GB
+         	Estimated memory consumption: 0.097779 GB
          	Physical memory installed: 6.43688 GB
-         	Available physical memory: 2.52908 GB
-         	Available relative memory: 39.2905 %
+         	Available physical memory: 2.67577 GB
+         	Available relative memory: 41.5693 %
          -----------------------------------------------------
 
 1xN001:  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-         Tue Tue Nov 19 20:09:43 2024
+         Tue Tue Nov 19 20:30:19 2024
          started: calculating matrix coefficients per node
          >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
@@ -596,7 +592,7 @@ Sequential merge (TST):	00:00:00.0000
          PBA version 2024043024
          Sub-Workflow: FARM-1xN-TST2-Node
          Workflow updated: -
-         Tue Tue Nov 19 20:09:43 2024
+         Tue Tue Nov 19 20:30:19 2024
          ============================================================
 
 1xN001:  ----------------------------------------------
@@ -614,10 +610,6 @@ Sequential merge (TST):	00:00:00.0000
 1xN001:
 
 
-
->2024-10-19 20:09:47.00654< matrixcalc_AMD64 @ DemianPC: 1xN001:  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-                                                                  current system memory usage reached 65%
-                                                                  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 1xN001:  ----------------------
          Acceleration mode: CPU
@@ -678,9 +670,9 @@ Sequential merge (TST):	00:00:00.0000
          =================================
 
 1xN001:  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-         Tue Tue Nov 19 20:10:01 2024
+         Tue Tue Nov 19 20:30:37 2024
          Resource usage for calculating matrix coefficients per node:
-         	Runtime                          00:00:17.00755
+         	Runtime                          00:00:17.00928
          	Peak Memory Estimation:                   98 MB
          	Peak Memory Usage:                        87 MB
          <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
@@ -770,14 +762,14 @@ Sequential merge (TST):	00:00:00.0000
 
 1xN002:  -----------------------------------------------------
          Memory status on node "1xN002" for matrix calculation
-         	Estimated memory consumption: 0.0893294 GB
+         	Estimated memory consumption: 0.0892874 GB
          	Physical memory installed: 6.43688 GB
-         	Available physical memory: 2.52906 GB
-         	Available relative memory: 39.2902 %
+         	Available physical memory: 2.67494 GB
+         	Available relative memory: 41.5565 %
          -----------------------------------------------------
 
 1xN002:  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-         Tue Tue Nov 19 20:09:43 2024
+         Tue Tue Nov 19 20:30:19 2024
          started: calculating matrix coefficients per node
          >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
@@ -789,7 +781,7 @@ Sequential merge (TST):	00:00:00.0000
          PBA version 2024043024
          Sub-Workflow: FARM-1xN-TST2-Node
          Workflow updated: -
-         Tue Tue Nov 19 20:09:43 2024
+         Tue Tue Nov 19 20:30:19 2024
          ============================================================
 
 1xN002:  ----------------------------------------------
@@ -807,10 +799,6 @@ Sequential merge (TST):	00:00:00.0000
 1xN002:
 
 
-
->2024-10-19 20:09:45.00482< matrixcalc_AMD64 @ DemianPC: 1xN002:  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-                                                                  current system memory usage reached 65%
-                                                                  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 1xN002:  ----------------------
          Acceleration mode: CPU
@@ -837,10 +825,10 @@ Sequential merge (TST):	00:00:00.0000
 
 1xN002:  ----------------------------
          TST Statistics:
-         E Split (896 | 1024 | 0)
-         E Adapt (1664 | 1536 | 1364)
-         B Split (992 | 868 | 2560)
-         B Adapt (16 | 14 | 0)
+         E Split (1024 | 1152 | 0)
+         E Adapt (1664 | 1536 | 1550)
+         B Split (1116 | 992 | 2688)
+         B Adapt (18 | 16 | 0)
          ----------------------------
 
 1xN002:  ssssssssssssssssssssssssssssssssssssssssss
@@ -871,11 +859,11 @@ Sequential merge (TST):	00:00:00.0000
          =================================
 
 1xN002:  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-         Tue Tue Nov 19 20:09:58 2024
+         Tue Tue Nov 19 20:30:35 2024
          Resource usage for calculating matrix coefficients per node:
-         	Runtime                          00:00:15.00554
+         	Runtime                          00:00:15.00902
          	Peak Memory Estimation:                   89 MB
-         	Peak Memory Usage:                        83 MB
+         	Peak Memory Usage:                        84 MB
          <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 
@@ -963,14 +951,14 @@ Sequential merge (TST):	00:00:00.0000
 
 1xN003:  -----------------------------------------------------
          Memory status on node "1xN003" for matrix calculation
-         	Estimated memory consumption: 0.0870969 GB
+         	Estimated memory consumption: 0.0871676 GB
          	Physical memory installed: 6.43688 GB
-         	Available physical memory: 2.52953 GB
-         	Available relative memory: 39.2974 %
+         	Available physical memory: 2.67497 GB
+         	Available relative memory: 41.5569 %
          -----------------------------------------------------
 
 1xN003:  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-         Tue Tue Nov 19 20:09:43 2024
+         Tue Tue Nov 19 20:30:19 2024
          started: calculating matrix coefficients per node
          >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
@@ -982,7 +970,7 @@ Sequential merge (TST):	00:00:00.0000
          PBA version 2024043024
          Sub-Workflow: FARM-1xN-TST2-Node
          Workflow updated: -
-         Tue Tue Nov 19 20:09:43 2024
+         Tue Tue Nov 19 20:30:19 2024
          ============================================================
 
 1xN003:  ----------------------------------------------
@@ -1000,10 +988,6 @@ Sequential merge (TST):	00:00:00.0000
 1xN003:
 
 
-
->2024-10-19 20:09:45.00823< matrixcalc_AMD64 @ DemianPC: 1xN003:  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-                                                                  current system memory usage reached 65%
-                                                                  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 1xN003:  ----------------------
          Acceleration mode: CPU
@@ -1064,9 +1048,9 @@ Sequential merge (TST):	00:00:00.0000
          =================================
 
 1xN003:  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-         Tue Tue Nov 19 20:09:59 2024
+         Tue Tue Nov 19 20:30:36 2024
          Resource usage for calculating matrix coefficients per node:
-         	Runtime                          00:00:16.00501
+         	Runtime                          00:00:16.00672
          	Peak Memory Estimation:                   87 MB
          	Peak Memory Usage:                        86 MB
          <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
@@ -1074,15 +1058,15 @@ Sequential merge (TST):	00:00:00.0000
 
 
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-Tue Tue Nov 19 20:10:06 2024
+Tue Tue Nov 19 20:30:42 2024
 Resource usage for parallelization control:
-	Runtime                      00:00:24.00934
+	Runtime                      00:00:25.00299
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 ------------------------------------------------------------------------------------------------------------------------------
 PBAMeshFeedback - InfoMap: 0[ms] - SBCell navigation: Using legacy edges - CornerCorrectionLinesAndWires: 0[ms] - Write: 0[ms]
-ConnectivityAXG - Load: 2[ms] - Setup: 0[ms] - Convert: 26[ms] ( Groups: 3 - Shapes: 8 - Threads: 6 ) - Write: 9[ms]
-ConnectivityAXG - Load: 2[ms] - Setup: 0[ms] - Convert: 26[ms] ( Groups: 3 - Shapes: 8 - Threads: 6 ) - Write: 9[ms]
+ConnectivityAXG - Load: 3[ms] - Setup: 0[ms] - Convert: 20[ms] ( Groups: 3 - Shapes: 8 - Threads: 6 ) - Write: 6[ms]
+ConnectivityAXG - Load: 3[ms] - Setup: 0[ms] - Convert: 20[ms] ( Groups: 3 - Shapes: 8 - Threads: 6 ) - Write: 6[ms]
 ------------------------------------------------------------------------------------------------------------------------------
 
 --------------------------------
