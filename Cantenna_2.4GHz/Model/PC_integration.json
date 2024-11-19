@@ -7,27 +7,27 @@
       {
          "name": "f",
          "type": "float",
-         "value": 2462000000.0
+         "value": 2450000000.0
       },
       {
-         "name": "radio",
+         "name": "grosor",
          "type": "float",
          "value": 0.5
       },
       {
          "name": "D",
          "type": "float",
-         "value": 88.9
+         "value": 83.0
       },
       {
-         "name": "Lopt",
+         "name": "L",
          "type": "float",
-         "value": 300.0
+         "value": 315.0
       },
       {
          "name": "y",
          "type": "float",
-         "value": 55.0
+         "value": 62.1
       }
    ],
    "outputVariables": []

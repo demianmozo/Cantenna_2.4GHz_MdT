@@ -51,21 +51,10 @@ PortModeConsState: 0
 
 
 *** newmonitor
-monname: "farfield (f=2400)"
+monname: "farfield (f=2450)"
 nmonfrequencies: 1
-monfrequencies: "2400" 
+monfrequencies: "2450" 
 montype: 18
-mondomain: 1
-mon_fmin: ""
-mon_fmax: ""
-mon_nfSteps: ""
-*** endmonitor
-
-*** newmonitor
-monname: "e-field (f=2400)"
-nmonfrequencies: 1
-monfrequencies: "2400" 
-montype: 0
 mondomain: 1
 mon_fmin: ""
 mon_fmax: ""

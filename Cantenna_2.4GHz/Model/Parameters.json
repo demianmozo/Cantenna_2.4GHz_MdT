@@ -1,39 +1,39 @@
 {
     "parameters": [
         {
-            "expr": "2462e6",
+            "expr": "2450e6",
             "name": "f",
-            "value": "2462e6"
+            "value": "2450e6"
         },
         {
             "expr": "3e8*1000/f",
             "name": "lmbda",
-            "value": "121.852152721365"
+            "value": "122.448979591837"
         },
         {
             "expr": "0.5",
-            "name": "radio",
+            "name": "grosor",
             "value": "0.5"
         },
         {
             "expr": "lmbda/4",
-            "name": "L",
-            "value": "30.4630381803413"
+            "name": "h_monopolo",
+            "value": "30.6122448979593"
         },
         {
-            "expr": "88.9",
+            "expr": "83",
             "name": "D",
-            "value": "88.9"
+            "value": "83"
         },
         {
-            "expr": "300",
-            "name": "Lopt",
-            "value": "300"
+            "expr": "315",
+            "name": "L",
+            "value": "315"
         },
         {
-            "expr": "55",
+            "expr": "62.1",
             "name": "y",
-            "value": "55"
+            "value": "62.1"
         }
     ],
     "version": 1

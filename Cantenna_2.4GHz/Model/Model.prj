@@ -4,9 +4,9 @@
    "Last Problem Type": "High Frequency",
    "Last Solver Type": "HF Time Domain",
    "Last Solver Type Abb": "t",
-   "Mesh Cells": "79,920",
+   "Mesh Cells": "83,916",
    "Mesh Type": "Hexahedral",
-   "Modeler Unique ID": "5:cantenna_2.4ghz.cst?bc377e11d6719ada815ea86c5b2fc9e0?43198:numberofparameters=7:port=1>mode=1>zre=0>zim=0:::d?l?lopt?f?lmbda?radio?y",
+   "Modeler Unique ID": "5:cantenna_2.4ghz.cst?9cb7b7047cb7d0c9a94da4d17b663e3d?54268:numberofparameters=7:port=1>mode=1>zre=0>zim=0:::d?l?f?grosor?h_monopolo?lmbda?y",
    "ProjectVersion": "'# MWS Version: Version 2024.4 - Apr 30 2024 - ACIS 33.0.1 - Learning Edition",
    "Results": "Time Domain: S-Parameter",
    "Version": "3"
