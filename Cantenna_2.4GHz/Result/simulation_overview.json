@@ -1,5 +1,5 @@
 {
-    "date": "2024-11-18, 00:44:47, Argentina Standard Time",
+    "date": "2024-11-19, 15:31:14, Argentina Standard Time",
     "solver_runs_and_tasks": {
         "module_name": "standard simulation project",
         "solver_run": {
@@ -37,10 +37,10 @@
             "task_name": "solver run",
             "time_info": {
                 "details": {
-                    "discretizer": 26,
-                    "solver": 21
+                    "discretizer": 35,
+                    "solver": 434
                 },
-                "run_time": 54
+                "run_time": 475
             }
         }
     },

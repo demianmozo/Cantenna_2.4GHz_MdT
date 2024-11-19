@@ -22,12 +22,12 @@
       {
          "name": "Lopt",
          "type": "float",
-         "value": 150.0
+         "value": 300.0
       },
       {
          "name": "y",
          "type": "float",
-         "value": 52.7
+         "value": 55.0
       }
    ],
    "outputVariables": []
