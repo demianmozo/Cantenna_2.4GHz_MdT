@@ -16,11 +16,11 @@ Sin embargo, esta antena fue implementada con una lata que se tenia a disposici�
 
 #### A continuación se adjunta el modelo con las respectivas medidas:  
 
-![3D_con_medidas](/Users/demian/Desktop/Cantenna_2.4GHz_MdT/3D_con_medidas.png)
+![3D_con_medidas](/3D_con_medidas.png)
 
 #### Diagrama de radiacion de campo lejano:
 
-![farfield](/Users/demian/Desktop/Cantenna_2.4GHz_MdT/farfield.png)
+![farfield](/farfield.png)
 
 ###### Asignatura Medios de Transmisión - Laboratorio de Comunicaciones - Facultad de Ingeniería - UNMdP
 
