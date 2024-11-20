@@ -3,7 +3,7 @@ Frontend-Node:  ======================
                 ======================
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-Tue Tue Nov 19 20:30:17 2024
+Tue Tue Nov 19 22:38:49 2024
 started: parallelization control
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
@@ -66,7 +66,7 @@ Hex mesh: global: [hxr o(0 | 0 | 0) s(41 | 39 | 66) np (no TSTs): 105534]
 ==========================================================================
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-Tue Tue Nov 19 20:30:17 2024
+Tue Tue Nov 19 22:38:49 2024
 started: processing CAD model
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
@@ -78,26 +78,30 @@ Version: 2024.4 Release from 2024-04-30 (change 1266454)
 PBA version 2024043024
 Sub-Workflow: Facets-QQ-GEX
 Workflow updated: -
-Tue Tue Nov 19 20:30:17 2024
+Tue Tue Nov 19 22:38:49 2024
 ========================================================================
+
+>2024-10-19 22:38:50.00266< matrixcalc_AMD64 @ DemianPC:  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+                                                          current system memory usage reached 60%
+                                                          !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 ===========================================
 Finished CAD processing (for field results)
 ===========================================
 
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-Tue Tue Nov 19 20:30:18 2024
+Tue Tue Nov 19 22:38:50 2024
 Resource usage for processing CAD model:
-	Runtime                 00:00:00.00824
+	Runtime                 00:00:00.00784
 	Peak Memory Usage:               37 MB
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-Tue Tue Nov 19 20:30:18 2024
+Tue Tue Nov 19 22:38:50 2024
 started: processing CAD model
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
->2024-10-19 20:30:18.00543< matrixcalc_AMD64 @ DemianPC:  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+>2024-10-19 22:38:50.00338< matrixcalc_AMD64 @ DemianPC:  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
                                                           current system memory usage reached 60%
                                                           !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -109,7 +113,7 @@ Version: 2024.4 Release from 2024-04-30 (change 1266454)
 PBA version 2024043024
 Sub-Workflow: Facets-QQ-GEX
 Workflow updated: -
-Tue Tue Nov 19 20:30:18 2024
+Tue Tue Nov 19 22:38:50 2024
 ========================================================================
 
 ----------------------------------------------
@@ -217,9 +221,9 @@ Finished CAD processing
 =======================
 
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-Tue Tue Nov 19 20:30:18 2024
+Tue Tue Nov 19 22:38:50 2024
 Resource usage for processing CAD model:
-	Runtime                 00:00:00.00349
+	Runtime                 00:00:00.00341
 	Peak Memory Usage:               37 MB
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
@@ -255,26 +259,26 @@ Currently running jobs: 0
 Waiting jobs: 4
 Concurrency for section: 4/4
 Memory physically installed: 6.43688 GB
-Memory currently available: 2.7202 GB
-Memory already used: 3.71668 GB
+Memory currently available: 2.74516 GB
+Memory already used: 3.69172 GB
 Matrix calculation @ 1xN-Node 0000
 	Mesh coverage: 2508000.00 %
-	Estimated peak memory usage per node: 100 MB, tightness: 3.69 %
+	Estimated peak memory usage per node: 100 MB, tightness: 3.65 %
 	GPU acceleration: off
 	Processor group: 0
 Matrix calculation @ 1xN-Node 0001
 	Mesh coverage: 2633400.00 %
-	Estimated peak memory usage per node: 98 MB, tightness: 3.59 %
+	Estimated peak memory usage per node: 98 MB, tightness: 3.56 %
 	GPU acceleration: off
 	Processor group: 0
 Matrix calculation @ 1xN-Node 0002
 	Mesh coverage: 2508000.00 %
-	Estimated peak memory usage per node: 89 MB, tightness: 3.28 %
+	Estimated peak memory usage per node: 89 MB, tightness: 3.25 %
 	GPU acceleration: off
 	Processor group: 0
 Matrix calculation @ 1xN-Node 0003
 	Mesh coverage: 2633400.00 %
-	Estimated peak memory usage per node: 87 MB, tightness: 3.20 %
+	Estimated peak memory usage per node: 87 MB, tightness: 3.18 %
 	GPU acceleration: off
 	Processor group: 0
 Node distribution on 1 processor group: 4
@@ -287,10 +291,10 @@ Mesh: # of points excl. TSTs: 105534
 
 ===========================================
 Data rearrangement statistics:
-Disk IO directories:	00:00:00.0000
-Disk IO node domain files:	00:00:01.0428
+Disk IO directories:	00:00:00.0001
+Disk IO node domain files:	00:00:01.0591
 Disk IO FI domain files:	00:00:00.0000
-Disk IO meta information:	00:00:00.0007
+Disk IO meta information:	00:00:00.0014
 Sequential merge (TST):	00:00:00.0000
 ===========================================
 
@@ -379,12 +383,12 @@ Sequential merge (TST):	00:00:00.0000
          Memory status on node "1xN000" for matrix calculation
          	Estimated memory consumption: 0.100288 GB
          	Physical memory installed: 6.43688 GB
-         	Available physical memory: 2.67548 GB
-         	Available relative memory: 41.5649 %
+         	Available physical memory: 2.70082 GB
+         	Available relative memory: 41.9585 %
          -----------------------------------------------------
 
 1xN000:  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-         Tue Tue Nov 19 20:30:19 2024
+         Tue Tue Nov 19 22:38:51 2024
          started: calculating matrix coefficients per node
          >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
@@ -396,7 +400,7 @@ Sequential merge (TST):	00:00:00.0000
          PBA version 2024043024
          Sub-Workflow: FARM-1xN-TST2-Node
          Workflow updated: -
-         Tue Tue Nov 19 20:30:19 2024
+         Tue Tue Nov 19 22:38:51 2024
          ============================================================
 
 1xN000:  ----------------------------------------------
@@ -481,9 +485,9 @@ Sequential merge (TST):	00:00:00.0000
          =================================
 
 1xN000:  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-         Tue Tue Nov 19 20:30:37 2024
+         Tue Tue Nov 19 22:39:09 2024
          Resource usage for calculating matrix coefficients per node:
-         	Runtime                          00:00:17.00658
+         	Runtime                          00:00:18.00076
          	Peak Memory Estimation:                  100 MB
          	Peak Memory Usage:                        86 MB
          <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
@@ -575,12 +579,12 @@ Sequential merge (TST):	00:00:00.0000
          Memory status on node "1xN001" for matrix calculation
          	Estimated memory consumption: 0.097779 GB
          	Physical memory installed: 6.43688 GB
-         	Available physical memory: 2.67577 GB
-         	Available relative memory: 41.5693 %
+         	Available physical memory: 2.70098 GB
+         	Available relative memory: 41.961 %
          -----------------------------------------------------
 
 1xN001:  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-         Tue Tue Nov 19 20:30:19 2024
+         Tue Tue Nov 19 22:38:51 2024
          started: calculating matrix coefficients per node
          >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
@@ -592,7 +596,7 @@ Sequential merge (TST):	00:00:00.0000
          PBA version 2024043024
          Sub-Workflow: FARM-1xN-TST2-Node
          Workflow updated: -
-         Tue Tue Nov 19 20:30:19 2024
+         Tue Tue Nov 19 22:38:51 2024
          ============================================================
 
 1xN001:  ----------------------------------------------
@@ -670,11 +674,11 @@ Sequential merge (TST):	00:00:00.0000
          =================================
 
 1xN001:  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-         Tue Tue Nov 19 20:30:37 2024
+         Tue Tue Nov 19 22:39:09 2024
          Resource usage for calculating matrix coefficients per node:
-         	Runtime                          00:00:17.00928
+         	Runtime                          00:00:18.00426
          	Peak Memory Estimation:                   98 MB
-         	Peak Memory Usage:                        87 MB
+         	Peak Memory Usage:                        86 MB
          <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 
@@ -764,12 +768,12 @@ Sequential merge (TST):	00:00:00.0000
          Memory status on node "1xN002" for matrix calculation
          	Estimated memory consumption: 0.0892874 GB
          	Physical memory installed: 6.43688 GB
-         	Available physical memory: 2.67494 GB
-         	Available relative memory: 41.5565 %
+         	Available physical memory: 2.70085 GB
+         	Available relative memory: 41.959 %
          -----------------------------------------------------
 
 1xN002:  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-         Tue Tue Nov 19 20:30:19 2024
+         Tue Tue Nov 19 22:38:51 2024
          started: calculating matrix coefficients per node
          >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
@@ -781,7 +785,7 @@ Sequential merge (TST):	00:00:00.0000
          PBA version 2024043024
          Sub-Workflow: FARM-1xN-TST2-Node
          Workflow updated: -
-         Tue Tue Nov 19 20:30:19 2024
+         Tue Tue Nov 19 22:38:51 2024
          ============================================================
 
 1xN002:  ----------------------------------------------
@@ -859,11 +863,11 @@ Sequential merge (TST):	00:00:00.0000
          =================================
 
 1xN002:  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-         Tue Tue Nov 19 20:30:35 2024
+         Tue Tue Nov 19 22:39:07 2024
          Resource usage for calculating matrix coefficients per node:
-         	Runtime                          00:00:15.00902
+         	Runtime                          00:00:16.00334
          	Peak Memory Estimation:                   89 MB
-         	Peak Memory Usage:                        84 MB
+         	Peak Memory Usage:                        83 MB
          <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 
@@ -953,12 +957,12 @@ Sequential merge (TST):	00:00:00.0000
          Memory status on node "1xN003" for matrix calculation
          	Estimated memory consumption: 0.0871676 GB
          	Physical memory installed: 6.43688 GB
-         	Available physical memory: 2.67497 GB
-         	Available relative memory: 41.5569 %
+         	Available physical memory: 2.70082 GB
+         	Available relative memory: 41.9586 %
          -----------------------------------------------------
 
 1xN003:  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-         Tue Tue Nov 19 20:30:19 2024
+         Tue Tue Nov 19 22:38:51 2024
          started: calculating matrix coefficients per node
          >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
@@ -970,7 +974,7 @@ Sequential merge (TST):	00:00:00.0000
          PBA version 2024043024
          Sub-Workflow: FARM-1xN-TST2-Node
          Workflow updated: -
-         Tue Tue Nov 19 20:30:19 2024
+         Tue Tue Nov 19 22:38:51 2024
          ============================================================
 
 1xN003:  ----------------------------------------------
@@ -1048,9 +1052,9 @@ Sequential merge (TST):	00:00:00.0000
          =================================
 
 1xN003:  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-         Tue Tue Nov 19 20:30:36 2024
+         Tue Tue Nov 19 22:39:08 2024
          Resource usage for calculating matrix coefficients per node:
-         	Runtime                          00:00:16.00672
+         	Runtime                          00:00:17.00060
          	Peak Memory Estimation:                   87 MB
          	Peak Memory Usage:                        86 MB
          <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
@@ -1058,15 +1062,15 @@ Sequential merge (TST):	00:00:00.0000
 
 
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-Tue Tue Nov 19 20:30:42 2024
+Tue Tue Nov 19 22:39:15 2024
 Resource usage for parallelization control:
-	Runtime                      00:00:25.00299
+	Runtime                      00:00:26.00339
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 ------------------------------------------------------------------------------------------------------------------------------
 PBAMeshFeedback - InfoMap: 0[ms] - SBCell navigation: Using legacy edges - CornerCorrectionLinesAndWires: 0[ms] - Write: 0[ms]
-ConnectivityAXG - Load: 3[ms] - Setup: 0[ms] - Convert: 20[ms] ( Groups: 3 - Shapes: 8 - Threads: 6 ) - Write: 6[ms]
-ConnectivityAXG - Load: 3[ms] - Setup: 0[ms] - Convert: 20[ms] ( Groups: 3 - Shapes: 8 - Threads: 6 ) - Write: 6[ms]
+ConnectivityAXG - Load: 3[ms] - Setup: 0[ms] - Convert: 27[ms] ( Groups: 3 - Shapes: 8 - Threads: 6 ) - Write: 6[ms]
+ConnectivityAXG - Load: 3[ms] - Setup: 0[ms] - Convert: 27[ms] ( Groups: 3 - Shapes: 8 - Threads: 6 ) - Write: 6[ms]
 ------------------------------------------------------------------------------------------------------------------------------
 
 --------------------------------

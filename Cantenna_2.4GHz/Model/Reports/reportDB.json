@@ -1,0 +1,28 @@
+{
+    "lastModifiedBy": {
+        "build": 20240430,
+        "major": 2024,
+        "patch": 4
+    },
+    "reports": [
+        {
+            "items": [
+                {
+                    "description": "",
+                    "module": "ModelerViewer",
+                    "name": "Components\\component1\\lata",
+                    "options": "{\"addOverlay\":true}",
+                    "screenshotFilepath": "d2bbfabcd1c046e6981f5b37a8970090\\9__9049__9_64af394ee9a_a_f47947b.png",
+                    "sortkey": 0,
+                    "treePath": "{\"plotSettings\":\"<?xml version=\\\"1.0\\\" encoding=\\\"UTF-8\\\"?>\\n<RememberPlots version=\\\"20200930\\\">\\n  <ModelViewSettings name=\\\"\\\" workplane=\\\"0\\\">\\n    <ViewSettings axes=\\\"1\\\" bbox=\\\"0\\\" wireframe=\\\"0\\\" infotext=\\\"1\\\">\\n      <Camera matrix=\\\"-0.271645188 0.810459435 0.519002557 0 -0.333785564 -0.585147619 0.739047468 0 0.902660012 0.0275231078 0.429472268 0 0 0 0 1\\\" center=\\\"117.887299 -77.29422\\\" distance=\\\"9669.54395\\\" scale=\\\"8.95200157\\\"/>\\n      <Cutplane active=\\\"0\\\" normal=\\\"1 0 0\\\" dist=\\\"-0.25\\\" covermode=\\\"HIDE\\\"/>\\n    </ViewSettings>\\n  </ModelViewSettings>\\n</RememberPlots>\\n\",\"treePaths\":[\"Components\\\\component1\\\\lata\"]}",
+                    "uid": "9229049559164af394ee9a2a1f47947b",
+                    "vis3DFilepath": ""
+                }
+            ],
+            "name": "Report 1",
+            "pathName": "d2bbfabcd1c046e6981f5b37a8970090",
+            "uid": "d2bbfabcd1c046e6981f5b37a8970090"
+        }
+    ],
+    "version": 20200902
+}

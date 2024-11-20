@@ -6,7 +6,7 @@
    "Last Solver Type Abb": "t",
    "Mesh Cells": "98,800",
    "Mesh Type": "Hexahedral",
-   "Modeler Unique ID": "5:cantenna_2.4ghz.cst?f14c953084d2202475991d2b40e70bb2?54374:numberofparameters=5:port=1>mode=1>zre=0>zim=0:::d?l?grosor?h_monopolo?y",
+   "Modeler Unique ID": "5:cantenna_2.4ghz.cst?20f2c6cd8bf7e0e2654a15565fee0fb9?64671:numberofparameters=5:port=1>mode=1>zre=0>zim=0:::d?l?grosor?h_monopolo?y",
    "ProjectVersion": "'# MWS Version: Version 2024.4 - Apr 30 2024 - ACIS 33.0.1 - Learning Edition",
    "Results": "Time Domain: S-Parameter",
    "Version": "3"
