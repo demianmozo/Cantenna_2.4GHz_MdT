@@ -17,7 +17,7 @@
       {
          "name": "h_monopolo",
          "type": "float",
-         "value": 31.0
+         "value": 42.0
       },
       {
          "name": "D",
@@ -32,7 +32,7 @@
       {
          "name": "y",
          "type": "float",
-         "value": 61.2
+         "value": 70.0
       }
    ],
    "outputVariables": []
