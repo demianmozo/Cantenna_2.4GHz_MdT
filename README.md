@@ -38,7 +38,7 @@ El diseño se desarrolla alrededor de una **antena de $λ/4$** , utilizando una 
    - Construcción de la antena usando una lata que se tenia a disposición en el laboratorio, de medidas $D = 9.5$ cm y $L = 33.5$ cm. Esta lata fue seleccionada luego de probar ser la óptima dentro de las disponibles. 
    - Ajustes experimentales en la longitud del monopolo y de la distancia $y$ luego de mediciones con el analizador de espectro.
 
-**A continuación se adjunta el modelo con las respectivas medidas:**  
+**A continuación se adjunta el modelo óptimo con las respectivas medidas:**  
 
 ![3D_con_medidas](/3D_con_medidas.png)
 
