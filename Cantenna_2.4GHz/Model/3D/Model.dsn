@@ -25,7 +25,7 @@ PortSourceGroups:
 FloquetPortSourceGroups:
 SchematicPortSourceGroups:
 Number of frequency-points: 1
-Fmin: 2.000000e+09
+Fmin: 1.500000e+09
 Fmax: 3.000000e+09
 Fscale: 1.000000e+06
 
@@ -39,8 +39,8 @@ Portname: 1
 Modenumber: 1
 Modetype: 6
 Zline: 3.700000e+01 0.000000e+00
-Fdev: 2.500000e+09
-Fmin: 2.000000e+09
+Fdev: 2.250000e+09
+Fmin: 1.500000e+09
 Fmax: 3.000000e+09
 PortModeConsState: 0
 *** endmode

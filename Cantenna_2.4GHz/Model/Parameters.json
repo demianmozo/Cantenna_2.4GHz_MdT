@@ -16,9 +16,9 @@
             "value": "0.5"
         },
         {
-            "expr": "42",
+            "expr": "31",
             "name": "h_monopolo",
-            "value": "42"
+            "value": "31"
         },
         {
             "expr": "95",
@@ -31,9 +31,9 @@
             "value": "335"
         },
         {
-            "expr": "70",
+            "expr": "46.7",
             "name": "y",
-            "value": "70"
+            "value": "46.7"
         }
     ],
     "version": 1

@@ -4,7 +4,7 @@
 [PCB_IMPORT: False]
 [PCB_IMPORT_NEW: False]
 [DISABLE_FAST_LOAD: False]
-[BBOX:-61.324109244444443 60.824109244444443 -60.824109244444443 60.824109244444443 -13.324109244444445 348.32410924444446]
+[BBOX:-61.324109244444443 60.824109244444443 -60.824109244444443 60.824109244444443 -13.324109244444443 348.32410924444446]
 [BBOX_STRUCTURE:-48 47.5 -47.5 47.5 0 335]
 [UNITS]
      .SetUnit "Length", "mm"
@@ -20,7 +20,7 @@
      .SetResultUnit "frequency", "frequency", "" 
 [ENDUNITS]
 [FREQUENCYRANGE]
-Solver.FrequencyRange "2000", "3000" 
+Solver.FrequencyRange "1500", "3000" 
 [ENDFREQUENCYRANGE]
 [BACKGROUND]
      .XminSpace "0" 
@@ -592,8 +592,8 @@ Solver.FrequencyRange "2000", "3000"
      .CurrentAmplitude "1.0"
      .Monitor "True"
      .CenterEdge "True"
-     .SetP1 "True", "-48", "0", "70.5"
-     .SetP2 "True", "-48", "0", "71.799999999999997"
+     .SetP1 "True", "-48", "0", "47.200000000000003"
+     .SetP2 "True", "-48", "0", "48.5"
      .LocalCoordinates "False"
      .InvertDirection "False"
      .UseProjection "False"
