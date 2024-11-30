@@ -1,6 +1,5 @@
 # Proyecto Cantenna_2.4GHz
-**Autores**: Facundo Iampietro y Demian N. Mozo
-**Institución**: Laboratorio de Comunicaciones, Facultad de Ingeniería, UNMdP
+**Autores**: Facundo Iampietro y Demian N. Mozo  
 **Fecha**: Noviembre 2024
 
 ------
